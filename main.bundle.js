@@ -1057,7 +1057,7 @@ var HomeComponent = /** @class */ (function () {
 /***/ "./src/app/imgmodal/imgmodal.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<ng-template #content let-c=\"close\" let-d=\"dismiss\">\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\">Jobtech Forum</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"d('Cross click')\">\r\n      <span aria-hidden=\"true\">&times;</span>\r\n\r\n    </button>\r\n  </div>\r\n  <div class=\"modal-body\">\r\n    <img src=\"assets/images/pdf-inbjudan.jpg\" width=\"100%\">\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n   <p> Intresset för Jobtech Forum är stort! Vi måste tyvärr stänga anmälan i förtid eftersom antalet platser nu är fyllda.\r\n\r\n\r\n  </div>\r\n</ng-template>\r\n\r\n<img src=\"assets/images/pdf-inbjudan.jpg\" width=\"100%\" (click)=\"open(content)\">\r\n\r\n<hr>\r\n\r\n<pre>{{closeResult}}</pre>\r\n"
+module.exports = "<ng-template #content let-c=\"close\" let-d=\"dismiss\">\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\">Jobtech Forum</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"d('Cross click')\">\r\n      <span aria-hidden=\"true\">&times;</span>\r\n\r\n    </button>\r\n  </div>\r\n  <div class=\"modal-body\">\r\n    <img src=\"assets/images/pdf-inbjudan.jpg\" width=\"100%\">\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n   <p> Intresset för Jobtech Forum är stort! Vi måste tyvärr stänga anmälan i förtid eftersom antalet platser nu är fyllda.\r\n\r\n\r\n  </div>\r\n</ng-template>\r\n\r\n<img src=\"assets/images/pdf-inbjudan1.jpg\" width=\"100%\" (click)=\"open(content)\">\r\n\r\n<hr>\r\n\r\n<pre>{{closeResult}}</pre>\r\n"
 
 /***/ }),
 
