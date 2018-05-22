@@ -2,6 +2,7 @@ export const environment = {
   production: false,
 
   keycloak: {
+
     url: 'http://localhost:8080/auth',
     realm: 'jobtechdev',
     clientId: 'job-tech-dev'
@@ -11,4 +12,5 @@ export const environment = {
   useKeycloak: false,
 
   googleAnalytics: 'UA-114390036-1'
+
 };
