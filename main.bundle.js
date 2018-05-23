@@ -668,7 +668,7 @@ var routes = [
     { path: 'service/:id', component: __WEBPACK_IMPORTED_MODULE_12__account_job_service_editor_job_service_editor_component__["a" /* JobServiceEditorComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_10__shared_services_keycloak_keycloak_guard__["a" /* KeycloakGuard */]] },
     { path: 'organisation', component: __WEBPACK_IMPORTED_MODULE_13__account_organisation_organisation_component__["a" /* OrganisationComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_10__shared_services_keycloak_keycloak_guard__["a" /* KeycloakGuard */]] },
     { path: 'profile', component: __WEBPACK_IMPORTED_MODULE_6__account_profile_profile_component__["a" /* ProfileComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_10__shared_services_keycloak_keycloak_guard__["a" /* KeycloakGuard */]] },
-    { path: '**', component: __WEBPACK_IMPORTED_MODULE_3__home_home_component__["a" /* HomeComponent */] }
+    { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
