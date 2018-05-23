@@ -28,7 +28,7 @@ export const routes: Routes = [
   {path: 'service/:id', component: JobServiceEditorComponent, canActivate: [KeycloakGuard]},
   {path: 'organisation', component: OrganisationComponent, canActivate: [KeycloakGuard]},
   {path: 'profile', component: ProfileComponent, canActivate: [KeycloakGuard]},
-  {path: '**', component: HomeComponent}
+  {path: '**', redirectTo: 'home', pathMatch: 'full'},
 ];
 
 @NgModule({
