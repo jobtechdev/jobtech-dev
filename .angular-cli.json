@@ -11,7 +11,8 @@
         "assets",
         "favicon.ico",
 	      "swagger",
-        "dcat"
+        "dcat",
+        "CNAME"
       ],
       "index": "index.html",
       "main": "main.ts",
