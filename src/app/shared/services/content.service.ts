@@ -38,7 +38,7 @@ export const SHOWCASES = [
 
   {
     'title': 'Widget Jobbskills',
-    'details': 'Widget som matchar med annonser med sökande via Jobskills. Utvecklad av Iteam',
+    'details': 'Widget som matchar annonser med sökande via Jobskills. Utvecklad av Iteam',
     'link': 'http://s3-eu-west-1.amazonaws.com/seband/demo.html',
     'image': 'assets/images/Iteam.jpg',
     'type': 'Widget Jobskills'
