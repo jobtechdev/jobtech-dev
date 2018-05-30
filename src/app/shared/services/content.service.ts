@@ -37,6 +37,30 @@ export class ContentService {
 export const SHOWCASES = [
 
   {
+    'title': 'Widget Jobbskills',
+    'details': 'Widget som matchar med annonser med sökande via Jobskills. Utvecklad av Iteam',
+    'link': 'http://s3-eu-west-1.amazonaws.com/seband/demo.html',
+    'image': 'assets/images/Iteam2.jpg',
+    'type': 'Widget Jobskills'
+  },
+
+  {
+    'title': 'Jobb för dig',
+    'details': 'Widget som visar personaliserade jobbförslag baserat på öppen data inom Jobtech.',
+    'link': 'https://youtu.be/OHUXHjqUjTA',
+    'image': 'assets/images/jobbwidget.jpg',
+    'type': 'Jobb för dig'
+  },
+  {
+    'title': 'A job',
+    'details': 'An impartial marketplace for labor actors.',
+    'link': 'https://jobby.info',
+    'image': 'assets/images/job.png',
+    'type': 'Jobby'
+  },
+
+
+  {
     'title': 'Data Universe',
     'details': 'Data Universe makes your data accessible and understandable by enabling dynamic exploration and visualization in a Virtual Reality space.',
     'link': 'https://data-universe.github.io/',
