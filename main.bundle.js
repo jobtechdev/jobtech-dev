@@ -1518,6 +1518,13 @@ var ContentService = /** @class */ (function () {
 
 var SHOWCASES = [
     {
+        'title': 'GIG API',
+        'details': 'Målsättningen är att tillsammans med privata gigplattformar, hitta ett bra upplägg där tjänster matchas mot både de som söker uppdrag och de som har behov av att få uppdrag utförda',
+        'link': 'https://github.com/JobtechSwe/gig-api',
+        'image': 'assets/images/tim-gouw-69753-min.jpg',
+        'type': 'GIG API'
+    },
+    {
         'title': 'Widget Jobbskills',
         'details': 'Widget som matchar annonser med sökande via Jobskills. Utvecklad av Iteam',
         'link': 'http://s3-eu-west-1.amazonaws.com/seband/demo.html',
@@ -1527,7 +1534,7 @@ var SHOWCASES = [
     {
         'title': 'Jobb för dig',
         'details': 'Widget som visar personaliserade jobbförslag baserat på öppen data inom Jobtech.',
-        'link': 'https://youtu.be/OHUXHjqUjTA',
+        'link': 'https://github.com/JobtechSwe/jobwidget',
         'image': 'assets/images/jobbwidget.jpg',
         'type': 'Jobb för dig'
     },
