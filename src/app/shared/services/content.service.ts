@@ -38,7 +38,7 @@ export const SHOWCASES = [
 
   {
     'title': 'GIG API',
-    'details': 'Målsättningen är att tillsammans med privata gigplattformar, hitta ett bra upplägg där tjänster matchas mot både de som söker uppdrag och de som har behov av att få uppdrag utförda',
+    'details': 'The goal is, together with private GIG-platforms, find a good layout where services are matched to those who are looking for assignments and those who need to be assigned tasks.',
     'link': 'https://github.com/JobtechSwe/gig-api',
     'image': 'assets/images/tim-gouw-69753-min.jpg',
     'type': 'GIG API'
@@ -46,7 +46,7 @@ export const SHOWCASES = [
 
   {
     'title': 'Widget Jobbskills',
-    'details': 'Widget som matchar annonser med sökande via Jobskills. Utvecklad av Iteam',
+    'details': 'Widget that matches ads with jobseekers via Jobskills. Developed by Iteam',
     'link': 'http://s3-eu-west-1.amazonaws.com/seband/demo.html',
     'image': 'assets/images/Iteam.jpg',
     'type': 'Widget Jobskills'
@@ -54,7 +54,7 @@ export const SHOWCASES = [
 
   {
     'title': 'Jobb för dig',
-    'details': 'Widget som visar personaliserade jobbförslag baserat på öppen data inom Jobtech.',
+    'details': 'Widget that shows personalized job suggestions based on open data within Jobtech.',
     'link': 'https://github.com/JobtechSwe/jobwidget',
     'image': 'assets/images/jobbwidget.jpg',
     'type': 'Jobb för dig'
