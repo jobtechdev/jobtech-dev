@@ -12,11 +12,13 @@ import {KeycloakGuard} from './shared/services/keycloak/keycloak.guard';
 import { JobServiceListComponent } from './account/job-service-list/job-service-list.component';
 import { JobServiceEditorComponent } from './account/job-service-editor/job-service-editor.component';
 import {OrganisationComponent} from './account/organisation/organisation.component';
+import {AboutComponent} from './about/about.component';
 
 export const routes: Routes = [
   // { path: '', redirectTo: 'race-list', pathMatch: 'full' },
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
   {path: 'assets', component: AssetsComponent},
   {path: 'assets/:id', component: DetailsComponent},
   {path: 'news', component: NewsComponent},

@@ -34,6 +34,7 @@ import {JobServiceListComponent} from './account/job-service-list/job-service-li
 import { OrganisationComponent } from './account/organisation/organisation.component';
 import {OrganisationService} from './shared/services/organisation.service';
 import {ImgmodalComponent} from './imgmodal/imgmodal.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import {ImgmodalComponent} from './imgmodal/imgmodal.component';
     JobServiceListComponent,
     JobServiceEditorComponent,
     OrganisationComponent,
-    ImgmodalComponent
+    ImgmodalComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
