@@ -61,6 +61,57 @@
 }
 .img-fluid {
   width: 100%;
-  }
+  margin: 0px;
+  padding: 0px 3px 3px 3px;
+  border-radius:5px;
+
+}
+
+.carousel-caption {
+
+   /* RGBa with 0.6 opacity */
+
+  background-color: #343a40;
+  color: #f8f9fa ;
+  width: 100%;
+  right: 0%;
+  left: 0%;
+  bottom: 0px;
+  position: relative;
+
+
+
+
+}
+.carousel {
+
+  background-color: #343a40;
+}
+.banner {
+  color: #f8f9fa ;
+  font-weight: 900;
+  transform: rotate(45deg);
+  background-color: #AE77D7;
+  font-size: small;
+  right: -40%;
+  top: 40px;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.banner:hover {
+  cursor: pointer;
+}
+a {
+  color: #fff;
+  z-index: 20000;
+  text-decoration: none;
+}
+
+
 
 

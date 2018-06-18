@@ -4,48 +4,39 @@
   <p>We invite you to explore JobTech and give us your valuable feedback. <a
     href="mailto:jobtechdev@arbetsformedlingen.se">Email us</a></p>
 </div>
-<div class="container-fluid">
-  <div class="row our-vision">
-    <div class="col-md-6 image-cell">
-      <img src="assets/images/vision-startpage.jpg" alt="Vision" class="img-fluid">
-    </div>
-    <div class="col-md-6 pr-0">
-      <h2 class="section-header">Our vision</h2>
-      <p>
-        <b>It´s quite simple.</b>
-      </p>
-      <p> a person goes to a job they dislike or have no job to go to at all, is a loss. Not only for the
-        individual,
-        but also for the employer who has the potential to grow if they find the right person. This Sweden can not
-        afford.&nbsp;</p>
-      <p>We believe in using technology to let people connect in new ways. It will help people find their dream job and
-        it will
-        make employers find top candidates easier. By this our collective talents are better used and Sweden becomes a
-        better
-        place to live.</p>
-    </div>
-  </div>
-  <div class="row principles">
-    <div class="col-md-6">
-      <h2 class="section-header">Guiding principles</h2>
-      <p>No matter what we do, these principles will guide us:</p>
-      <p>
-      <li>
-        <b>Collaborate</b>
-        <br/>Work with others, they know&nbsp;something you do not know.
-      </li>
-      <li>
-        <b>Diversity by design</b>
-        <br/>Everyone is unique; one-size solution does not fit all.&nbsp;
-      </li>
-      <li>
-        <b>Keep it simple</b>
-        <br/>If people understand, they can contribute!
-      </li>
-      </p>
-    </div>
-    <div class="col-md-6 image-cell">
-      <img src="assets/images/compass-startpage.jpg" alt="Vision" class="img-fluid">
-    </div>
-  </div>
+
+<div class="row">
+<div class="col-2 col-sm-2 col-md-2 col-lg-2"></div>
+<div class="col-8 col-sm-8 col-md-8 col-lg-8" style="height: 790px">
+  <h2 align="center">Examples of application build on open source</h2>
+  <br>
+  <ngb-carousel>
+
+    <ng-template *ngFor="let image of images; let i = index" ngbSlide>
+
+      <div class="carousel-caption container-fluid">
+        <h5>{{image.header}}</h5>
+        <!--<p>{{image.description}}</p>-->
+      </div>
+      <div class="container">
+        <a href="{{image.link}}" target="_blank">
+          <div class="banner container">
+
+            Fork me on Github
+
+
+          </div>
+        </a>
+        <a href="{{image.demolink}}" target="_blank">
+        <img class="img-fluid" [src]="image.image" alt="Random first slide ">
+
+        </a>
+      </div>
+
+
+    </ng-template>
+  </ngb-carousel>
+
+ </div>
 </div>
+
