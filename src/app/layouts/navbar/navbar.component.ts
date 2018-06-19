@@ -50,9 +50,8 @@ export class NavbarComponent implements OnInit {
       }, error => (console.error('Failed to load router events: ', error)));
 
   }
+  doLogout() {    console.log('doLogout');
 
-  doLogout() {
-    console.log('doLogout');
     this.keycloakService.client().logout({redirectUri: NavbarComponent.getHostUrl()});
   }
 
@@ -83,7 +82,11 @@ export class NavbarComponent implements OnInit {
     if (this.noTitleRoutes.indexOf(this.title) !== -1) {
       this.title = '';
     }
+    if (this.title == 'Apidatasets') {
+      this.title = 'Api:s & Datasets';
+    }
     // console.log('title: ', this.title);
   }
 
 }
+

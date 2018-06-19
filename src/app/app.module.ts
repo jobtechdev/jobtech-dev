@@ -20,7 +20,6 @@ import {KeycloakGuard} from './shared/services/keycloak/keycloak.guard';
 
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './layouts/navbar/navbar.component';
-import {AssetsComponent} from './assets/assets.component';
 import {PlatformComponent} from './platform/platform.component';
 import {ShowcaseComponent} from './showcase/showcase.component';
 import {NewsComponent} from './news/news.component';
@@ -28,19 +27,19 @@ import {ProfileComponent} from './account/profile/profile.component';
 import {HomeComponent} from './home/home.component';
 import {AppRoutingModule} from './app-routing.module';
 import {FooterComponent} from './layouts/footer/footer.component';
-import {DetailsComponent} from './assets/details/details.component';
+import {DetailsComponent} from './apidatasets/details/details.component';
 import {JobServiceEditorComponent} from './account/job-service-editor/job-service-editor.component';
 import {JobServiceListComponent} from './account/job-service-list/job-service-list.component';
 import { OrganisationComponent } from './account/organisation/organisation.component';
 import {OrganisationService} from './shared/services/organisation.service';
 import {ImgmodalComponent} from './imgmodal/imgmodal.component';
 import { AboutComponent } from './about/about.component';
+import { ApidatasetsComponent } from './apidatasets/apidatasets.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AssetsComponent,
     PlatformComponent,
     ShowcaseComponent,
     NewsComponent,
@@ -52,7 +51,8 @@ import { AboutComponent } from './about/about.component';
     JobServiceEditorComponent,
     OrganisationComponent,
     ImgmodalComponent,
-    AboutComponent
+    AboutComponent,
+    ApidatasetsComponent
   ],
   imports: [
     BrowserModule,

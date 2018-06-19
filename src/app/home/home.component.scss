@@ -78,13 +78,15 @@
   left: 0%;
   bottom: 0px;
   position: relative;
-
+  max-width: 1300px;
 
 
 
 }
 .carousel {
-  background-color: #343a40;
+  border:solid;
+  border-left-width: thick ;
+  //background-color: #343a40;
 }
 .banner {
   color: #f8f9fa ;

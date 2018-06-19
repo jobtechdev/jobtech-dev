@@ -5,7 +5,7 @@ import { DetailsComponent } from './details.component';
 import {ContentService} from '../../shared/services/content.service';
 
 class MockContentService {
-  getAssetByName( name, value) {}
+  getApidatasetsByName( name, value) {}
 }
 
 describe('DetailsComponent', () => {

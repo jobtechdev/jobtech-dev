@@ -1,6 +1,6 @@
 import {RouterModule, Routes} from '@angular/router';
-import {AssetsComponent} from './assets/assets.component';
-import {DetailsComponent} from './assets/details/details.component';
+import {ApidatasetsComponent} from './apidatasets/apidatasets.component';
+import {DetailsComponent} from './apidatasets/details/details.component';
 import {HomeComponent} from './home/home.component';
 import {NewsComponent} from './news/news.component';
 import {PlatformComponent} from './platform/platform.component';
@@ -19,7 +19,7 @@ export const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'assets', component: AssetsComponent},
+  {path: 'apidatasets', component: ApidatasetsComponent},
   {path: 'assets/:id', component: DetailsComponent},
   {path: 'news', component: NewsComponent},
   {path: 'platform', component: PlatformComponent},

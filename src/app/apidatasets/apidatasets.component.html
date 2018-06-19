@@ -1,0 +1,26 @@
+<div class="container">
+
+  <div class="container-fluid">
+    <div>
+      <h2 class="showcase-description text-center">API:s & DATASETS</h2>
+      <p class="showcase-description text-center">Built an application using our assets?
+        <a href="mailto:jobtechdev@arbetsformedlingen.se">Email us</a> and tell us about it!</p>
+    </div>
+
+
+    <div class="mt-3 card-group" *ngIf="items | async; let items; else loading">
+      <a class="card mb-4" *ngFor="let item of items" [routerLink]="['./', item.name]" routerLinkActive="active">
+
+        <img class="card-img-top" [src]="item.image" [alt]="item.title">
+        <div class="card-body">
+          <h5 class="card-title">{{item.title}}</h5>
+          <p class="card-text">{{item.shortDescription }}</p>
+        </div>
+
+      </a>
+
+    </div>
+  </div>
+
+  <ng-template #loading>Laddar ...</ng-template>
+</div>

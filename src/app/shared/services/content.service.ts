@@ -13,9 +13,9 @@ export class ContentService {
   }
 
 
-  getAssetByName(name): Observable<any> {
+  getApidatasetsByName(name): Observable<any> {
 
-    return Observable.of(ASSETS.find(current => current.name === name));
+    return Observable.of(APIDATASETS.find(current => current.name === name));
     // for (var i = 0; i < ASSETS.length; i++) {
     //   if (ASSETS[i][name] === value) {
     //     return ASSETS[i];
@@ -29,8 +29,8 @@ export class ContentService {
     return Observable.of(SHOWCASES);
   }
 
-  getAssets(): Observable<Itemm[]> {
-    return Observable.of(ASSETS);
+  getApidatasets(): Observable<Itemm[]> {
+    return Observable.of(APIDATASETS);
   }
 }
 
@@ -83,7 +83,7 @@ export const SHOWCASES = [
     'type': 'APPLICATION'
   },
   {
-    'title': 'Vacancies widget ',
+    'title': 'Job Postings',
     'details': 'Add Job postings list to your site in minutes. \n \nFor example get all job postings in a municipaliti.',
     'link': 'https://github.com/jobtechdev/vacancieswidget',
     'image': 'assets/images/widget.png',
@@ -105,7 +105,7 @@ export const SHOWCASES = [
   },
 ];
 
-export const ASSETS = [
+export const APIDATASETS = [
   {
     'name': 'job-market-ontology',
     'title': 'Job Market Ontology',
@@ -318,7 +318,7 @@ export const ASSETS = [
         'url': 'https://simonbe.blob.core.windows.net/afhistorik/2017.zip'
       },
 
-          ]
+    ]
   }
 ];
 

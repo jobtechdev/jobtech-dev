@@ -20,7 +20,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
 
     this.sub = this.route.params.subscribe(params => {
       this.name = params['id'];
-      this.item = this.contentService.getAssetByName(this.name);
+      this.item = this.contentService.getApidatasetsByName(this.name);
     });
   }
   ngOnInit() {
