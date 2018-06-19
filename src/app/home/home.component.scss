@@ -84,13 +84,17 @@
 
 }
 .carousel {
-
   background-color: #343a40;
 }
 .banner {
   color: #f8f9fa ;
   font-weight: 900;
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); /* WebKit */
+  -moz-transform: rotate(45deg); /* Mozilla */
+  -o-transform: rotate(45deg); /* Opera */
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  transform: rotate(45deg); /* CSS3 */
   background-color: #AE77D7;
   font-size: small;
   right: -40%;
@@ -111,6 +115,8 @@ a {
   z-index: 20000;
   text-decoration: none;
 }
+
+
 
 
 
