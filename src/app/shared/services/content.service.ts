@@ -83,7 +83,7 @@ export const SHOWCASES = [
     'type': 'APPLICATION'
   },
   {
-    'title': 'Job Postings',
+    'title': 'Vacancies Widget',
     'details': 'Add Job postings list to your site in minutes. \n \nFor example get all job postings in a municipaliti.',
     'link': 'https://github.com/jobtechdev/vacancieswidget',
     'image': 'assets/images/widget.png',
@@ -97,11 +97,11 @@ export const SHOWCASES = [
     'type': 'POST JOB ADS'
   },
   {
-    'title': 'Kompetensutforskaren',
+    'title': 'Ontologiutforskaren',
     'details': 'An example of how to use our Ontology API ',
     'link': 'http://pilot.arbetsformedlingen.se/kompetensutforskaren/#!/',
-    'image': 'assets/images/ontologi.png',
-    'type': 'KOMPETENSUTFORSKAREN'
+    'image': 'assets/images/ontologiutforskaren.jpg',
+    'type': 'ONTOLOGIUTFORSKAREN'
   },
 ];
 
