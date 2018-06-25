@@ -20,7 +20,7 @@ export const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'apidatasets', component: ApidatasetsComponent},
-  {path: 'assets/:id', component: DetailsComponent},
+  {path: 'apidatasets/:id', component: DetailsComponent},
   {path: 'news', component: NewsComponent},
   {path: 'platform', component: PlatformComponent},
   {path: 'showcase', component: ShowcaseComponent},
