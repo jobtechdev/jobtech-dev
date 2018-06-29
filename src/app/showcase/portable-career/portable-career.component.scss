@@ -2,9 +2,11 @@
 .card{
   border-radius: 10px;
   margin-top: 20px;
-  margin-bottom: 20px;
+
 }
 .jumbotron{
+  position: relative;
+
   background-color: #fff;
   border-radius: 0px 0px 0px 0px;
   background-repeat:no-repeat;
@@ -14,7 +16,16 @@
   max-height: 350px;
   min-height: 200px;
   background-position: center;
+  margin-bottom: 0px;
 
+
+
+  img{
+    position: absolute;
+    width: 45%;
+    bottom: 5px;
+    right: 5px;
+  }
 
 
 
