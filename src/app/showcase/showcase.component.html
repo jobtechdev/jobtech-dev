@@ -6,7 +6,6 @@
   </div>
 
   <div class="card-group" *ngIf="items | async; let items; else loading">
-
     <div *ngFor="let item of items" class="card mb-4" (click)="goToUrl(item.link)">
       <img class="card-img-top" [src]="item.image" [alt]="item.title">
       <div class="card-body">

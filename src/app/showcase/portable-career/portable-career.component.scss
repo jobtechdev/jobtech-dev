@@ -1,29 +1,40 @@
 @import "../../../../node_modules/bootstrap/scss/bootstrap";
 .card{
   border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .jumbotron{
   background-color: #fff;
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
   background-repeat:no-repeat;
+  background-image: url("../../../assets/images/Background_blue_gradient.png");
 
   background-size: cover;
-  height: 200px;
+  max-height: 350px;
+  min-height: 200px;
   background-position: center;
 
 
+
+
+
   h2{
+
     color:white;
 
+    font-weight: 900;
     text-shadow: 2px 2px 10px #000;
-      }
+  }
 }
 
 .card-text{
   white-space: pre-line;
+  margin-left: 20px;
 }
 .card-downloads{
   margin-top: 20px;
+  white-space: pre-line;
 }
 .links{
   margin-top: 20px;

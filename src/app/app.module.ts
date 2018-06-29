@@ -35,6 +35,7 @@ import {OrganisationService} from './shared/services/organisation.service';
 import {ImgmodalComponent} from './imgmodal/imgmodal.component';
 import { AboutComponent } from './about/about.component';
 import { ApidatasetsComponent } from './apidatasets/apidatasets.component';
+import { PortableCareerComponent } from './showcase/portable-career/portable-career.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { ApidatasetsComponent } from './apidatasets/apidatasets.component';
     OrganisationComponent,
     ImgmodalComponent,
     AboutComponent,
-    ApidatasetsComponent
+    ApidatasetsComponent,
+    PortableCareerComponent
   ],
   imports: [
     BrowserModule,

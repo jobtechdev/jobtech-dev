@@ -37,6 +37,13 @@ export class ContentService {
 export const SHOWCASES = [
 
   {
+    'title': 'My Portable Career',
+    'details': "A 'career data management system' allowing 1) people to get control over their own career info, and 2) service providers to plug-in their services  to reach their target audience.",
+    'link': './showcase/portable-career',
+    'image': 'assets/images/Background_blue_gradient_min.png',
+    'type': 'GIG API'
+  },
+  {
     'title': 'GIG API',
     'details': 'The goal is, together with private GIG-platforms, find a good layout where services are matched to those who are looking for assignments and those who need to be assigned tasks.',
     'link': 'https://github.com/JobtechSwe/gig-api',
