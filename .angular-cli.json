@@ -12,7 +12,8 @@
         "favicon.ico",
 	      "swagger",
         "dcat",
-        "CNAME"
+        "CNAME",
+        "raml_vagledning"
       ],
       "index": "index.html",
       "main": "main.ts",
