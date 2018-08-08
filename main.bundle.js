@@ -1805,7 +1805,7 @@ var APIDATASETS = [
         'files': [
             {
                 'name': 'Technical description',
-                'url': 'http://jobtechdev.se/resource/occupation/teknisk.pdf',
+                'url': 'https://jobtechdev.se/resource/occupation/teknisk.pdf',
             },
             {
                 'name': 'License (sv)',
