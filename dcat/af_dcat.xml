@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+﻿﻿<?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                  xmlns:dcterms="http://purl.org/dc/terms/"
                  xmlns:dcat="http://www.w3.org/ns/dcat#"
@@ -40,7 +40,7 @@
 
     <dcterms:modified>2018-04-05</dcterms:modified>
 
-    <foaf:homepage>https:///assets/</foaf:homepage>
+    <foaf:homepage>http://jobtechdev.se/assets/</foaf:homepage>
 
     <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 
@@ -80,9 +80,9 @@
 
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
 
-    <dcat:landingPage rdf:resource="https:///assets/platsbanken/"/>
+    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/platsbanken/"/>
 
-    <foaf:page rdf:resource="https:///assets/platsbanken/"/>
+    <foaf:page rdf:resource="http://jobtechdev.se/assets/platsbanken/"/>
 
     <dcterms:spatial rdf:resource="http://sws.geonames.org/2673730"/>
 
@@ -112,7 +112,7 @@
 
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
 
-    <dcat:accessURL rdf:resource="https:///swagger/#/platsannonser/"/>
+    <dcat:accessURL rdf:resource="http://jobtechdev.se/swagger/#/platsannonser/"/>
 
     <dcterms:issued>2018-04-06</dcterms:issued>
 
@@ -120,9 +120,9 @@
 
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
 
-    <dcat:landingPage rdf:resource="https:///assets/occupations"/>
+    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/occupations"/>
 
-    <foaf:page rdf:resource="https:///assets/occupations/"/>
+    <foaf:page rdf:resource="http://jobtechdev.se/assets/occupations/"/>
 
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/yearly"/>
 
@@ -138,13 +138,13 @@
 
       "The Job market ontology is a project which uses modern technology to describe the job market for making more effective matching and better user experiences.
 
-
+ 
 
 The ontology is created by automatically analyzing 6.3 millions ads and extracting mentioned competences. With intelligent algorithms the ontology knows how the competences is related to each other.
 
 The first version of the Job market ontology consists of a limited set of competences. Here you can explore them and see how they relates to each other. The state of the ontology is beta and it is changing to continuously get improved every day
 
-
+ 
 
     </dcterms:description>
 
@@ -170,9 +170,9 @@ The first version of the Job market ontology consists of a limited set of compet
 
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
 
-    <dcat:landingPage rdf:resource="https:///assets/ontology/"/>
+    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/ontology/"/>
 
-    <foaf:page rdf:resource="https:///assets/ontology/"/>
+    <foaf:page rdf:resource="http://jobtechdev.se/assets/ontology/"/>
 
     <dcterms:spatial rdf:resource="http://sws.geonames.org/2673730"/>
 
@@ -204,7 +204,7 @@ Each line in a file contains a job listing in a JSON Lines format.
 
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
 
-    <dcat:accessURL rdf:resource="https:///assets/historical-job-postings"/>
+    <dcat:accessURL rdf:resource="http://jobtechdev.se/assets/historical-job-postings"/>
 
     <dcterms:issued>2018-04-06</dcterms:issued>
 
@@ -224,7 +224,7 @@ Each line in a file contains a job listing in a JSON Lines format.
 
     <vcard:hasAddress rdf:nodeID="_n6"/>
 
-    <vcard:hasURL rdf:resource="https:///"/>
+    <vcard:hasURL rdf:resource="http://jobtechdev.se/"/>
 
     <vcard:hasEmail rdf:resource="mailto:jobtechdev@arbetsformedlingen.se"/>
 
@@ -254,7 +254,7 @@ Each line in a file contains a job listing in a JSON Lines format.
 
       API Occupation Forecasts contains 1 and 5 years forecasts for different occupations in Sweden.
 
-
+ 
 
 The Forecasts were made and published in February 2018 and are based on the standard SSYK (Swedish standard occupation classification - http://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/). To find SSYK for a specific job go to SCBs page (https://www.h5.scb.se/yreg/ssyk2012.asp).
 
@@ -272,7 +272,7 @@ The Forecasts were made and published in February 2018 and are based on the stan
 
     <dcat:accessURL rdf:resource="http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/"/>
 
-    <dcat:landingPage rdf:resource="https:///assets/occupation-forecasts"/>
+    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/occupation-forecasts"/>
 
     <dcterms:issued>2018-04-06</dcterms:issued>
 
@@ -292,7 +292,7 @@ The Forecasts were made and published in February 2018 and are based on the stan
 
     <dcterms:description xml:lang="en">swagger description</dcterms:description>
 
-    <dcat:accessURL rdf:resource="https:///swagger/#/platsannonser/"/>
+    <dcat:accessURL rdf:resource="http://jobtechdev.se/swagger/#/platsannonser/"/>
 
     <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
 
