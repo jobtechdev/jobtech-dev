@@ -1816,7 +1816,7 @@ var APIDATASETS = [
     {
         'name': 'historical-job-postings',
         'title': 'Historical Job Postings',
-        'shortDescription': 'All job postings from Platsbanken 2006-2016',
+        'shortDescription': 'All job postings from Platsbanken 2006-2017',
         'texts': [
             {
                 'header': 'Description',
