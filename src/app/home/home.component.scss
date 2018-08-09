@@ -84,6 +84,7 @@
 .carousel {
   border:solid;
   border-left-width: thick ;
+  max-width: 1000px;
   //background-color: #343a40;
 }
 .banner {
@@ -105,7 +106,7 @@
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-
+  align-content: center;
 }
 .banner:hover {
   cursor: pointer;
