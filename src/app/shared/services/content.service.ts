@@ -114,6 +114,36 @@ export const SHOWCASES = [
 
 export const APIDATASETS = [
   {
+    'name': 'RAF',
+    'title': 'RAF',
+    'shortDescription': 'Laboratory Reference Material (RAF) contains groupings of the professions that are expected to make similar demands on ability from a medical perspective.',
+    'texts': [
+      {
+        'header': 'Description',
+        'description': 'Laboratory Reference Material (RAF) contains groupings of the professions that are expected to make similar demands on ability from a medical perspective.\nThese requirements are called activity requirements and are described on the basis of common tasks within the group. \n\nRAF is a documentation that can be used as support and guidance in assessing workforce in health insurance. RAF can also be used in other contexts, for example in connection with Försäkringskassans communication with insured, employers and the Employment Service.',
+      },
+
+    ],
+
+    'image': 'assets/images/RAF.jpg',
+
+
+    'headimage': 'assets/images/rafheader.jpg',
+    'externallinks': [
+      {
+        'name': 'Go to API',
+
+        'link': 'raml_vagledning/index.html',
+
+      },
+      {
+        'name': 'Read more',
+        'link': 'https://www.arbetsformedlingen.se/download/18.703c5796164f21e1ee55a3c7/1533629515016/referensmaterial-arbetsformaga-raf-externt-api.pdf',
+      }
+    ],
+    'files': []
+  },
+  {
     'name': 'job-market-ontology',
     'title': 'Job Market Ontology',
     'shortDescription': 'Ontology created from job postings.(This is a prototype service, with full functionality)',
