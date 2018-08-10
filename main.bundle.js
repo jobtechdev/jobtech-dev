@@ -1805,13 +1805,13 @@ var APIDATASETS = [
         ]
     },
     {
-        'name': 'occupation',
-        'title': 'Occupation',
-        'shortDescription': 'Occupational description of 450 different occupations, with forecasts',
+        'name': 'occupational description',
+        'title': 'Occupational Descriptions',
+        'shortDescription': 'Contains descriptions of 350 different occupations',
         'texts': [
             {
                 'header': 'Description',
-                'description': 'Occupation is a webservice, it contains descriptions of nearly 450 different occupations.\n\nThe webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application.\n\nSee the technical description for more information.',
+                'description': 'Occupational description is a webservice, it contain descriptions of nearly 350 different occupations.\n\nThe webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application.\n\nDuring 2018 there will be a redirect to a new database with better structure.The old webservice & the new API will live in parallel for about 1 year. See the technical description for more information.',
             },
             {
                 'header': '',
@@ -1828,8 +1828,8 @@ var APIDATASETS = [
         ],
         'files': [
             {
-                'name': 'Technical description',
-                'url': 'https://jobtechdev.se/resource/occupation/teknisk.pdf',
+                'name': 'Technical description (New API)',
+                'url': 'raml_vagledning/index.html',
             },
             {
                 'name': 'License (sv)',
