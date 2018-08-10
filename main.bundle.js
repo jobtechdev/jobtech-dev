@@ -1706,7 +1706,7 @@ var APIDATASETS = [
         'externallinks': [
             {
                 'name': 'Go to API',
-                'link': 'https://jobtechdev.se/raml_vagledning/index.html#docs/summary/summary',
+                'link': 'raml_vagledning/index.html',
             },
             {
                 'name': 'Read more',
