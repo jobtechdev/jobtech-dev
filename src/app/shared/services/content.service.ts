@@ -114,6 +114,33 @@ export const SHOWCASES = [
 
 export const APIDATASETS = [
   {
+    'name': 'Taxonomi Service',
+    'title': 'Taxonomi Service',
+    'shortDescription': 'The Taxonomi Service of Arbetsförmedlingen. This webservice contains data commonly used by Arbetsförmedlingen',
+    'texts': [
+      {
+        'header': 'Description',
+        'description': 'Taxonomi Service contains data commonly used by Arbetsförmedlingen.\n For example you can find all occupation names, all Unemployment Benefit Societies (a-kassor), local groups (SSYK), and much more.\n You need to use the language code 502 (Swedish) to get the results of the requests.\n\nCheck it out for your self!',
+      },
+
+    ],
+
+    'image': 'assets/images/tax1.jpg',
+
+
+    'headimage': 'assets/images/tax.jpg',
+    'externallinks': [
+      {
+        'name': 'Go to Webservice',
+
+        'link': 'http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?',
+
+      },
+
+    ],
+    'files': []
+  },
+  {
     'name': 'RAF',
     'title': 'RAF',
     'shortDescription': 'Laboratory Reference Material (RAF) contains groupings of the professions that are expected to make similar demands on ability from a medical perspective.',
