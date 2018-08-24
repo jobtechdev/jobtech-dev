@@ -36,6 +36,7 @@ import {ImgmodalComponent} from './imgmodal/imgmodal.component';
 import { AboutComponent } from './about/about.component';
 import { ApidatasetsComponent } from './apidatasets/apidatasets.component';
 import { PortableCareerComponent } from './showcase/portable-career/portable-career.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { PortableCareerComponent } from './showcase/portable-career/portable-car
     ImgmodalComponent,
     AboutComponent,
     ApidatasetsComponent,
-    PortableCareerComponent
+    PortableCareerComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

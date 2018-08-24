@@ -14,6 +14,7 @@ import { JobServiceEditorComponent } from './account/job-service-editor/job-serv
 import {OrganisationComponent} from './account/organisation/organisation.component';
 import {AboutComponent} from './about/about.component';
 import {PortableCareerComponent} from './showcase/portable-career/portable-career.component';
+import {ContactComponent} from './contact/contact.component';
 
 export const routes: Routes = [
   // { path: '', redirectTo: 'race-list', pathMatch: 'full' },
@@ -25,6 +26,7 @@ export const routes: Routes = [
   {path: 'news', component: NewsComponent},
   {path: 'platform', component: PlatformComponent},
   {path: 'showcase', component: ShowcaseComponent},
+  {path: 'contact', component: ContactComponent},
   {path: 'showcase/portable-career', component: PortableCareerComponent},
   {path: 'profile', component: ProfileComponent, canActivate: [KeycloakGuard]},
   {path: 'service', component: JobServiceListComponent, canActivate: [KeycloakGuard]},

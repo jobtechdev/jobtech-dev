@@ -29,6 +29,9 @@
         <li class="nav-item" routerLinkActive="active">
           <a class="nav-link" [routerLink]="['/about']">ABOUT</a>
         </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/contact']">CONTACT</a>
+        </li>
       </ul>
 
       <div *ngIf="useKeycloak && keycloakService.authenticated() == false">
