@@ -29,4 +29,13 @@ img.social-media {
 
 footer {
   margin: 0;
+  height:25px;
+}
+
+.column{
+  column-count:2;
+  column-gap:50px;
+}
+.contact{
+  text-align: right;
 }
