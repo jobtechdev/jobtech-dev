@@ -1593,7 +1593,7 @@ var NavbarComponent = /** @class */ (function () {
         if (this.noTitleRoutes.indexOf(this.title) !== -1) {
             this.title = '';
         }
-        if (this.title = 'Apidatasets') {
+        if (this.title === 'Apidatasets') {
             this.title = 'Api:s & Datasets';
         }
         // console.log('title: ', this.title);
