@@ -1593,7 +1593,7 @@ var NavbarComponent = /** @class */ (function () {
         if (this.noTitleRoutes.indexOf(this.title) !== -1) {
             this.title = '';
         }
-        if (this.title === 'Apidatasets') {
+        if (this.title = 'Apidatasets') {
             this.title = 'Api:s & Datasets';
         }
         // console.log('title: ', this.title);
@@ -4245,7 +4245,7 @@ else {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\astmt\development\jtd-d\jobtech-dev\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\utv\Jobtechdev\footer\jobtech-dev\src\main.ts */"./src/main.ts");
 
 
 /***/ })
