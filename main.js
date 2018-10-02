@@ -1429,7 +1429,7 @@ var ImgmodalComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div class=\"p-3 bg-dark text-light\">\r\n    <span class=\"mr-2\">Follow us:</span>\r\n    <a href=\"https://twitter.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/Twitter_White.png\" alt=\"Twitter\" class=\"social-media\" />\r\n    </a>\r\n    <a href=\"https://github.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/GitHub_White.png\" alt=\"Github\" class=\"social-media\" />\r\n    </a>\r\n  <br>\r\n  <br>\r\n  <span class=\"mr-2\">Contact us:</span>\r\n  <a href=\"mailto:jobtechdev@arbetsformedlingen.se\">\r\n    <img src=\"assets/images/email.png\" class=\"social-media\" />\r\n  </a>\r\n\r\n  </div>\r\n"
+module.exports = "\r\n<div class=\"p-3 bg-dark text-light\">\r\n  <div class=\"column\">\r\n  <span class=\"mr-2\">Follow us:</span>\r\n    <a href=\"https://twitter.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/Twitter_White.png\" alt=\"Twitter\" class=\"social-media\" />\r\n    </a>\r\n    <a href=\"https://github.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/GitHub_White.png\" alt=\"Github\" class=\"social-media\" />\r\n    </a>\r\n  <div class=\"contact\">\r\n  <span class=\"mr-2\">Contact us:</span>\r\n  <a href=\"mailto:jobtechdev@arbetsformedlingen.se\">\r\n    <img src=\"assets/images/email.png\" class=\"social-media\" />\r\n  </a>\r\n  </div>\r\n  </div>\r\n\r\n  </div>\r\n"
 
 /***/ }),
 
@@ -1440,7 +1440,7 @@ module.exports = "\r\n<div class=\"p-3 bg-dark text-light\">\r\n    <span class=
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@import url(\"https://fonts.googleapis.com/css?family=Open+Sans\");\n@font-face {\n  font-style: normal;\n  font-weight: 300;\n  font-family: 'Open Sans', sans-serif; }\nimg.social-media {\n  max-height: 30px;\n  max-width: 30px;\n  margin-right: 10px; }\nfooter {\n  margin: 0; }\n"
+module.exports = "@import url(\"https://fonts.googleapis.com/css?family=Open+Sans\");\n@font-face {\n  font-style: normal;\n  font-weight: 300;\n  font-family: 'Open Sans', sans-serif; }\nimg.social-media {\n  max-height: 30px;\n  max-width: 30px;\n  margin-right: 10px; }\nfooter {\n  margin: 0;\n  height: 25px; }\n.column {\n  -webkit-column-count: 2;\n          column-count: 2;\n  -webkit-column-gap: 50px;\n          column-gap: 50px; }\n.contact {\n  text-align: right; }\n"
 
 /***/ }),
 
