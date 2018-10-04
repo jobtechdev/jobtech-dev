@@ -271,7 +271,7 @@ export const APIDATASETS = [
     ]
   },
   {
-    'name': 'occupational description',
+    'name': 'occupational_description',
     'title': 'Occupational Descriptions',
     'shortDescription': 'Contains descriptions of 350 different occupations',
     'texts': [
