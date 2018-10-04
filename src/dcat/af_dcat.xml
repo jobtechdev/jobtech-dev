@@ -80,9 +80,9 @@
 
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
 
-    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/platsbanken/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/apidatasets/platsbanken"/>
 
-    <foaf:page rdf:resource="http://jobtechdev.se/assets/platsbanken/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/apidatasets/platsbanken"/>
 
     <dcterms:spatial rdf:resource="http://sws.geonames.org/2673730"/>
 
@@ -120,9 +120,9 @@
 
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
 
-    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/occupations"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/apidatasets/occupational_description"/>
 
-    <foaf:page rdf:resource="http://jobtechdev.se/assets/occupations/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/apidatasets/occupational_description"/>
 
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/yearly"/>
 
@@ -170,9 +170,9 @@ The first version of the Job market ontology consists of a limited set of compet
 
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
 
-    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/ontology/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/apidatasets/job-market-ontology"/>
 
-    <foaf:page rdf:resource="http://jobtechdev.se/assets/ontology/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/apidatasets/job-market-ontology"/>
 
     <dcterms:spatial rdf:resource="http://sws.geonames.org/2673730"/>
 
@@ -204,7 +204,7 @@ Each line in a file contains a job listing in a JSON Lines format.
 
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
 
-    <dcat:accessURL rdf:resource="http://jobtechdev.se/assets/historical-job-postings"/>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/apidatasets/historical-job-postings"/>
 
     <dcterms:issued>2018-04-06</dcterms:issued>
 
@@ -272,7 +272,7 @@ The Forecasts were made and published in February 2018 and are based on the stan
 
     <dcat:accessURL rdf:resource="http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/"/>
 
-    <dcat:landingPage rdf:resource="http://jobtechdev.se/assets/occupation-forecasts"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/apidatasets/occupation-forecasts"/>
 
     <dcterms:issued>2018-04-06</dcterms:issued>
 
