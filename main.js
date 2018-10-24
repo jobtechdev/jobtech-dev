@@ -2114,7 +2114,7 @@ var APIDATASETS = [
         'texts': [
             {
                 'header': 'Description',
-                'description': 'Occupational description is a webservice, it contain descriptions of nearly 350 different occupations.\n\nThe webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application.\n\nDuring 2018 there will be a redirect to a new database with better structure.The old webservice & the new API will live in parallel for about 1 year. See the technical description for more information.',
+                'description': 'Occupational description is a webservice, it contain descriptions of nearly 350 different occupations.\n\nThe webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application.\n\nDuring 2018 there will be a redirect to a new database with better structure.The old webservice & the new API will live in parallel for about 1 year. Go to the New API for more information.',
             },
             {
                 'header': '',
@@ -2128,11 +2128,15 @@ var APIDATASETS = [
                 'name': 'Go to Webservice',
                 'link': 'http://api.arbetsformedlingen.se/af/v0/Occupation/wsoccupation.asmx',
             },
+            {
+                'name': 'Go to New API',
+                'link': 'raml_vagledning/index.html',
+            },
         ],
         'files': [
             {
-                'name': 'Technical description (New API)',
-                'url': 'raml_vagledning/index.html',
+                'name': '',
+                'url': '',
             },
             {
                 'name': 'License (sv)',
@@ -4245,7 +4249,7 @@ else {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\utv\Jobtechdev\jobtech-dev\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\descr\jobtech-dev\src\main.ts */"./src/main.ts");
 
 
 /***/ })
