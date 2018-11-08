@@ -741,7 +741,7 @@ var ProfileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n\r\n  <div class=\"container-fluid\">\r\n    <div>\r\n      <h2 class=\"showcase-description text-center\">API:s & DATASETS</h2>\r\n      <p class=\"showcase-description text-center\">Built an application using our assets?\r\n        <a href=\"mailto:jobtechdev@arbetsformedlingen.se\">Email us</a> and tell us about it!</p>\r\n    </div>\r\n\r\n\r\n    <div class=\"mt-3 card-group\" *ngIf=\"items | async; let items; else loading\">\r\n      <a class=\"card mb-4\" *ngFor=\"let item of items\" [routerLink]=\"['./', item.name]\" routerLinkActive=\"active\">\r\n\r\n        <img class=\"card-img-top\" [src]=\"item.image\" [alt]=\"item.title\">\r\n        <div class=\"card-body\">\r\n          <h5 class=\"card-title\">{{item.title}}</h5>\r\n          <p class=\"card-text\">{{item.shortDescription }}</p>\r\n        </div>\r\n\r\n      </a>\r\n\r\n    </div>\r\n  </div>\r\n\r\n  <ng-template #loading>Laddar ...</ng-template>\r\n</div>\r\n"
+module.exports = "<div class=\"container\">\r\n\r\n  <div class=\"container-fluid\">\r\n    <div>\r\n      <h2 class=\"showcase-description text-center\">API:s & DATASETS</h2>\r\n      <p class=\"showcase-description text-center\">Built an application using our assets?\r\n        <a href=\"mailto:community@jobtechdev.se\">Email us</a> and tell us about it!</p>\r\n    </div>\r\n\r\n\r\n    <div class=\"mt-3 card-group\" *ngIf=\"items | async; let items; else loading\">\r\n      <a class=\"card mb-4\" *ngFor=\"let item of items\" [routerLink]=\"['./', item.name]\" routerLinkActive=\"active\">\r\n\r\n        <img class=\"card-img-top\" [src]=\"item.image\" [alt]=\"item.title\">\r\n        <div class=\"card-body\">\r\n          <h5 class=\"card-title\">{{item.title}}</h5>\r\n          <p class=\"card-text\">{{item.shortDescription }}</p>\r\n        </div>\r\n\r\n      </a>\r\n\r\n    </div>\r\n  </div>\r\n\r\n  <ng-template #loading>Laddar ...</ng-template>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -1261,7 +1261,7 @@ var ContactComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"work-in-progress\">\r\n\r\n\r\n  <p>We invite you to explore JobTech and give us your valuable feedback. <a\r\n    href=\"mailto:jobtechdev@arbetsformedlingen.se\">Email us</a>\r\n  <br>\r\n   <br>\r\n  Below you can see some applications built on Open Source</p>\r\n</div>\r\n\r\n<div class=\"row\">\r\n<div class=\"col-2 col-sm-2 col-md-2 col-lg-2\"></div>\r\n<div class=\"col-8 col-sm-8 col-md-8 col-lg-8\" style=\"height: 790px\">\r\n\r\n  <br>\r\n  <ngb-carousel>\r\n\r\n    <ng-template *ngFor=\"let image of images; let i = index\" ngbSlide>\r\n\r\n      <div class=\"carousel-caption container-fluid\">\r\n        <h5>{{image.header}}</h5>\r\n        <!--<p>{{image.description}}</p>-->\r\n      </div>\r\n      <div class=\"container\">\r\n        <a href=\"{{image.link}}\" target=\"_blank\">\r\n          <div class=\"banner container\">\r\n\r\n            Fork me on Github\r\n\r\n\r\n          </div>\r\n        </a>\r\n        <a href=\"{{image.demolink}}\" target=\"_blank\">\r\n        <img class=\"img-fluid\" [src]=\"image.image\" alt=\"Random first slide \">\r\n\r\n        </a>\r\n      </div>\r\n\r\n\r\n    </ng-template>\r\n  </ngb-carousel>\r\n\r\n </div>\r\n</div>\r\n\r\n"
+module.exports = "<div class=\"work-in-progress\">\r\n\r\n\r\n  <p>We invite you to explore JobTech and give us your valuable feedback. <a\r\n    href=\"mailto:contact@jobtechdev.se\">Email us</a>\r\n  <br>\r\n   <br>\r\n  Below you can see some applications built on Open Source</p>\r\n</div>\r\n\r\n<div class=\"row\">\r\n<div class=\"col-2 col-sm-2 col-md-2 col-lg-2\"></div>\r\n<div class=\"col-8 col-sm-8 col-md-8 col-lg-8\" style=\"height: 790px\">\r\n\r\n  <br>\r\n  <ngb-carousel>\r\n\r\n    <ng-template *ngFor=\"let image of images; let i = index\" ngbSlide>\r\n\r\n      <div class=\"carousel-caption container-fluid\">\r\n        <h5>{{image.header}}</h5>\r\n        <!--<p>{{image.description}}</p>-->\r\n      </div>\r\n      <div class=\"container\">\r\n        <a href=\"{{image.link}}\" target=\"_blank\">\r\n          <div class=\"banner container\">\r\n\r\n            Fork me on Github\r\n\r\n\r\n          </div>\r\n        </a>\r\n        <a href=\"{{image.demolink}}\" target=\"_blank\">\r\n        <img class=\"img-fluid\" [src]=\"image.image\" alt=\"Random first slide \">\r\n\r\n        </a>\r\n      </div>\r\n\r\n\r\n    </ng-template>\r\n  </ngb-carousel>\r\n\r\n </div>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
@@ -1429,7 +1429,7 @@ var ImgmodalComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div class=\"p-3 bg-dark text-light\">\r\n  <div class=\"column\">\r\n  <span class=\"mr-2\">Follow us:</span>\r\n    <a href=\"https://twitter.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/Twitter_White.png\" alt=\"Twitter\" class=\"social-media\" />\r\n    </a>\r\n    <a href=\"https://github.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/GitHub_White.png\" alt=\"Github\" class=\"social-media\" />\r\n    </a>\r\n  <div class=\"contact\">\r\n  <span class=\"mr-2\">Contact us:</span>\r\n  <a href=\"mailto:jobtechdev@arbetsformedlingen.se\">\r\n    <img src=\"assets/images/email.png\" class=\"social-media\" />\r\n  </a>\r\n  </div>\r\n  </div>\r\n\r\n  </div>\r\n"
+module.exports = "\r\n<div class=\"p-3 bg-dark text-light\">\r\n  <div class=\"column\">\r\n  <span class=\"mr-2\">Follow us:</span>\r\n    <a href=\"https://twitter.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/Twitter_White.png\" alt=\"Twitter\" class=\"social-media\" />\r\n    </a>\r\n    <a href=\"https://github.com/jobtechdev\" target=\"_blank\">\r\n      <img src=\"assets/images/social/GitHub_White.png\" alt=\"Github\" class=\"social-media\" />\r\n    </a>\r\n  <div class=\"contact\">\r\n  <span class=\"mr-2\">Contact us:</span>\r\n  <a href=\"mailto:contact@jobtechdev.se\">\r\n    <img src=\"assets/images/email.png\" class=\"social-media\" />\r\n  </a>\r\n  </div>\r\n  </div>\r\n\r\n  </div>\r\n"
 
 /***/ }),
 
@@ -4103,7 +4103,7 @@ var PortableCareerComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n  <div>\r\n    <p class=\"showcase-description text-center\">Latest applications that have been built with our APIs, SDKs, and other developer tools.</p>\r\n    <p class=\"showcase-description text-center\">Built an application using our assets?\r\n      <a href=\"mailto:jobtechdev@arbetsformedlingen.se\">Email us</a> and tell us about it!</p>\r\n  </div>\r\n\r\n  <div class=\"card-group\" *ngIf=\"items | async; let items; else loading\">\r\n    <div *ngFor=\"let item of items\" class=\"card mb-4\" (click)=\"goToUrl(item.link)\">\r\n      <img class=\"card-img-top\" [src]=\"item.image\" [alt]=\"item.title\">\r\n      <div class=\"card-body\">\r\n        <h5 class=\"card-title\">{{ item.title }}</h5>\r\n        <p class=\"card-text\">{{ item.details }}</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<ng-template #loading>Laddar ...</ng-template>\r\n"
+module.exports = "<div class=\"container\">\r\n  <div>\r\n    <p class=\"showcase-description text-center\">Latest applications that have been built with our APIs, SDKs, and other developer tools.</p>\r\n    <p class=\"showcase-description text-center\">Built an application using our assets?\r\n      <a href=\"mailto:community@jobtechdev.se\">Email us</a> and tell us about it!</p>\r\n  </div>\r\n\r\n  <div class=\"card-group\" *ngIf=\"items | async; let items; else loading\">\r\n    <div *ngFor=\"let item of items\" class=\"card mb-4\" (click)=\"goToUrl(item.link)\">\r\n      <img class=\"card-img-top\" [src]=\"item.image\" [alt]=\"item.title\">\r\n      <div class=\"card-body\">\r\n        <h5 class=\"card-title\">{{ item.title }}</h5>\r\n        <p class=\"card-text\">{{ item.details }}</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<ng-template #loading>Laddar ...</ng-template>\r\n"
 
 /***/ }),
 
@@ -4249,7 +4249,7 @@ else {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\descr\jobtech-dev\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\contact\jobtech-dev\src\main.ts */"./src/main.ts");
 
 
 /***/ })

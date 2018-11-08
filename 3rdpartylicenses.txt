@@ -180,7 +180,7 @@ ng2-material-dropdown@0.10.1
 MIT
 MIT
 
-ngx-chips@1.9.4
+ngx-chips@1.9.8
 MIT
 MIT
 
