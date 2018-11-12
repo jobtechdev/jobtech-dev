@@ -15,3 +15,10 @@ export class News {
   Description: string;
 
 }
+
+export class Whitepapers {
+  title: string;
+  description: string;
+
+
+}

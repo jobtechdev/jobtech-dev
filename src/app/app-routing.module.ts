@@ -15,6 +15,8 @@ import {OrganisationComponent} from './account/organisation/organisation.compone
 import {AboutComponent} from './about/about.component';
 import {PortableCareerComponent} from './showcase/portable-career/portable-career.component';
 import {ContactComponent} from './contact/contact.component';
+import {WhitepapersComponent} from './whitepapers/whitepapers.component';
+import {WhitepaperdetailsComponent} from './whitepapers/whitepaperdetails/whitepaperdetails.component';
 
 export const routes: Routes = [
   // { path: '', redirectTo: 'race-list', pathMatch: 'full' },
@@ -34,7 +36,10 @@ export const routes: Routes = [
   {path: 'service/:id', component: JobServiceEditorComponent, canActivate: [KeycloakGuard]},
   {path: 'organisation', component: OrganisationComponent, canActivate: [KeycloakGuard]},
   {path: 'profile', component: ProfileComponent, canActivate: [KeycloakGuard]},
+  {path: 'whitepapers', component: WhitepapersComponent},
+  {path: 'whitepapers/:id', component: WhitepaperdetailsComponent},
   {path: '**', redirectTo: 'home', pathMatch: 'full'},
+
 ];
 
 @NgModule({

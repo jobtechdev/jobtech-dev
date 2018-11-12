@@ -37,6 +37,10 @@ import { AboutComponent } from './about/about.component';
 import { ApidatasetsComponent } from './apidatasets/apidatasets.component';
 import { PortableCareerComponent } from './showcase/portable-career/portable-career.component';
 import { ContactComponent } from './contact/contact.component';
+import { WhitepapersComponent } from './whitepapers/whitepapers.component';
+import { WhitepaperdetailsComponent } from './whitepapers/whitepaperdetails/whitepaperdetails.component';
+import {SafePipe} from './safepipe/safe.pipe';
+
 
 @NgModule({
   declarations: [
@@ -57,6 +61,9 @@ import { ContactComponent } from './contact/contact.component';
     ApidatasetsComponent,
     PortableCareerComponent,
     ContactComponent,
+    WhitepapersComponent,
+    WhitepaperdetailsComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
