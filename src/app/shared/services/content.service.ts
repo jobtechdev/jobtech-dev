@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Itemm} from '../model/item';
+import {Itemm, Whitepapers} from '../model/item';
 import {Item} from '../model/item';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/observable/of';
@@ -23,6 +23,16 @@ export class ContentService {
     // }
     // return null;
   }
+  getWhitepaperByName(name): Observable<any> {
+
+    return Observable.of(WHITEPAPERS.find(current => current.name === name));
+    // for (var i = 0; i < ASSETS.length; i++) {
+    //   if (ASSETS[i][name] === value) {
+    //     return ASSETS[i];
+    //   }
+    // }
+    // return null;
+  }
 
 
   getShowcases(): Observable<Item[]> {
@@ -32,6 +42,10 @@ export class ContentService {
   getApidatasets(): Observable<Itemm[]> {
     return Observable.of(APIDATASETS);
   }
+  getWhitepapers(): Observable<Whitepapers[]> {
+    return Observable.of(WHITEPAPERS);
+  }
+
 }
 
 export const SHOWCASES = [
@@ -390,5 +404,36 @@ export const APIDATASETS = [
 
     ]
   }
+];
+
+export const WHITEPAPERS = [
+  {
+    'name': 'SSYKochESCO',
+    'title': 'Yrken och kompetensord i Sverige och inom EU',
+    'description': 'SSYK (Standard för svensk yrkesklas­sificering) \n' +
+      'Synliggör vilka yrken som finns på arbetsmark­naden och fungera som en struktur för internationell rapportering.\n\n' +
+      'ESCO (EU-gemensam klassificer­ing av kompetenser, kvalifikationer och yrken.)\n' +
+      'Innehåller för arbetsmarknaden och utbildningsvärlden, relevanta kompetenser, kvalifikationer och yrken inom EU. ',
+    'link': './assets/files/SSYK och Esco.pdf'
+  },
+  {
+    'name': 'Värdeförrådskomponentergenomåren',
+    'title': 'Värdeförrådskomponenter genom åren',
+    'description': 'Arbets­förmedlingens system har genom åren har utvecklats vidare för att fungera bättre vid matchning av lediga jobb och arbetssökande.\n' +
+      'En ny uppdateringsrutin gällande vär­deförrådskomponenter planeras vara på plats sent 2018 eller tidigt 2019.',
+    'link': './assets/files/vardeforradskomponentergenomaren.pdf'
+  },
+  {
+    'name': 'Uppdatering av värdeförrådskomponenter',
+    'title': 'Uppdatering av värdeförrådskomponenter',
+    'description': 'Värdeförrådskomponenterna ligger till grund för flera centrala funktioner på Arbetsförmedlingen. Värdeförrådskomponenterna uppdateras i samråd med Statistiska centralby­rån SCB och Swedish Standards Insti­tute SIS. ',
+    'link': './assets/files/uppdateringavvardeforradskomponenter.pdf'
+  },
+  {
+    'name': 'Värdeförrådskomponenter',
+    'title': 'Värdeförrådskomponenter',
+    'description': 'Kopplingen mellan standarder, strukturer och värdeförråd samt uppdateringsfrekvensen av de olika värdeförrådskomponenterna som Arbetsförmedlingen använder visas i en övergripande bild.',
+    'link': './assets/files/Vardeforradskomponenter.png'
+  },
 ];
 

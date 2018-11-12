@@ -1,0 +1,16 @@
+<div class="container" *ngIf="item | async; let item; else loading">
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a [routerLink]="['/']">Home</a></li>
+      <li class="breadcrumb-item"><a [routerLink]="['/whitepapers']">Whitepapers</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{item.title}}</li>
+    </ol>
+  </nav>
+
+  <div class="card">
+    <embed [src]="this.item.link | safe" style="width: 100%;height: 700px">
+  </div>
+</div>
+
+<ng-template #loading>Laddar ...</ng-template>
