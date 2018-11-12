@@ -1,0 +1,15 @@
+<div class="container">
+
+
+  <div class="card-group" *ngIf="items | async; let items; else loading">
+    <div *ngFor="let item of items" class="card mb-4" [routerLink]="['./', item.name]" routerLinkActive="active">
+      <div class="card-body">
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>Laddar ...</ng-template>
+

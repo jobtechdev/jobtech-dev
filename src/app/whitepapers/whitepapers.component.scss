@@ -1,0 +1,57 @@
+@import '~scss/styles';
+p{
+  font-size: 12px;
+}
+
+$space-between-cards:3.2em;
+$zoom-to-scale:1.05;
+$zoom-transition-time:200ms;
+
+.card-group .card {
+  border-radius: 2px;
+  margin-top: 20px;
+  margin-right: $space-between-cards;
+  cursor: pointer;
+  min-width: 15rem;
+  border-width: 1px 1px 1px 0;
+
+
+
+}
+
+@include media-breakpoint-up(sm) {
+  .card-group .card {
+    max-width: 20rem;
+  }
+}
+
+.card-img-top {
+  max-width: 15rem;
+}
+.card-text {
+  white-space: pre-line;
+}
+.card-group .card {
+  -webkit-transition: all $zoom-transition-time ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all $zoom-transition-time ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all $zoom-transition-time ease-in;
+  -moz-transform: scale(1);
+  transition: all $zoom-transition-time ease-in;
+  transform: scale(1);
+}
+
+.card-group .card:hover {
+  box-shadow: 0px 0px 2em #000000;
+  z-index: 2;
+  -webkit-transition: all $zoom-transition-time ease-in;
+  -webkit-transform: scale($zoom-to-scale);
+  -ms-transition: all $zoom-transition-time ease-in;
+  -ms-transform: scale($zoom-to-scale);
+  -moz-transition: all $zoom-transition-time ease-in;
+  -moz-transform: scale($zoom-to-scale);
+  transition: all $zoom-transition-time ease-in;
+  transform: scale($zoom-to-scale);
+}
+
