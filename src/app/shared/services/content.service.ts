@@ -414,26 +414,26 @@ export const WHITEPAPERS = [
       'Synliggör vilka yrken som finns på arbetsmark­naden och fungera som en struktur för internationell rapportering.\n\n' +
       'ESCO (EU-gemensam klassificer­ing av kompetenser, kvalifikationer och yrken.)\n' +
       'Innehåller för arbetsmarknaden och utbildningsvärlden, relevanta kompetenser, kvalifikationer och yrken inom EU. ',
-    'link': './assets/files/SSYK och Esco.pdf'
+    'link': '../assets/files/SSYK och Esco.pdf'
   },
   {
     'name': 'Värdeförrådskomponentergenomåren',
     'title': 'Värdeförrådskomponenter genom åren',
     'description': 'Arbets­förmedlingens system har genom åren har utvecklats vidare för att fungera bättre vid matchning av lediga jobb och arbetssökande.\n' +
       'En ny uppdateringsrutin gällande vär­deförrådskomponenter planeras vara på plats sent 2018 eller tidigt 2019.',
-    'link': './assets/files/vardeforradskomponentergenomaren.pdf'
+    'link': '../assets/files/vardeforradskomponentergenomaren.pdf'
   },
   {
     'name': 'Uppdatering av värdeförrådskomponenter',
     'title': 'Uppdatering av värdeförrådskomponenter',
     'description': 'Värdeförrådskomponenterna ligger till grund för flera centrala funktioner på Arbetsförmedlingen. Värdeförrådskomponenterna uppdateras i samråd med Statistiska centralby­rån SCB och Swedish Standards Insti­tute SIS. ',
-    'link': './assets/files/uppdateringavvardeforradskomponenter.pdf'
+    'link': '../assets/files/uppdateringavvardeforradskomponenter.pdf'
   },
   {
     'name': 'Värdeförrådskomponenter',
     'title': 'Värdeförrådskomponenter',
     'description': 'Kopplingen mellan standarder, strukturer och värdeförråd samt uppdateringsfrekvensen av de olika värdeförrådskomponenterna som Arbetsförmedlingen använder visas i en övergripande bild.',
-    'link': './assets/files/Vardeforradskomponenter.png'
+    'link': '../assets/files/Vardeforradskomponenter.pdf'
   },
 ];
 

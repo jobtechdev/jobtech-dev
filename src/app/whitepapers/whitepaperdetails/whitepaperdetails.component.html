@@ -9,7 +9,7 @@
   </nav>
 
   <div class="card">
-    <embed [src]="this.item.link | safe" style="width: 100%;height: 700px">
+    <iframe [src]="item.link | safe" #pdfobject width="100%" height="700px"></iframe>
   </div>
 </div>
 

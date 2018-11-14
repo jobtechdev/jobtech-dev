@@ -19,6 +19,7 @@ export class News {
 export class Whitepapers {
   title: string;
   description: string;
+  link: string;
 
 
 }

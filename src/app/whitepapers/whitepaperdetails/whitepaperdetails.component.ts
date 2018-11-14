@@ -1,4 +1,4 @@
-import {Component, OnInit, OnDestroy} from '@angular/core';
+import {Component, OnInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
 import {ContentService} from '../../shared/services/content.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Observable} from 'rxjs/Observable';
@@ -9,20 +9,25 @@ import {Observable} from 'rxjs/Observable';
   templateUrl: './whitepaperdetails.component.html',
   styleUrls: ['./whitepaperdetails.component.scss']
 })
-export class WhitepaperdetailsComponent implements OnInit {
+
+export class WhitepaperdetailsComponent implements OnInit, OnDestroy {
+
 
   item: Observable<any>;
   name: string;
-  link: string;
   private sub: any;
 
   constructor(private route: ActivatedRoute, private contentService: ContentService) {
+
+
 
     this.sub = this.route.params.subscribe(params => {
       this.name = params['id'];
       this.item = this.contentService.getWhitepaperByName(this.name);
       console.log(this.item);
+
     });
+
   }
   ngOnInit() {
 

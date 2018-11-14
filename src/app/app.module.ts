@@ -40,6 +40,7 @@ import { ContactComponent } from './contact/contact.component';
 import { WhitepapersComponent } from './whitepapers/whitepapers.component';
 import { WhitepaperdetailsComponent } from './whitepapers/whitepaperdetails/whitepaperdetails.component';
 import {SafePipe} from './safepipe/safe.pipe';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 
 @NgModule({
@@ -66,6 +67,7 @@ import {SafePipe} from './safepipe/safe.pipe';
     SafePipe
   ],
   imports: [
+    PdfViewerModule,
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
