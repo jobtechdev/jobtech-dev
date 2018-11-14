@@ -614,7 +614,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ 2:
+/***/ 5:
 /*!**********************************************************************************************************************!*\
   !*** multi ./node_modules/bootstrap/scss/bootstrap.scss ./src/scss/styles.scss ./node_modules/ngx-toastr/toastr.css ***!
   \**********************************************************************************************************************/
@@ -628,5 +628,5 @@ module.exports = __webpack_require__(/*! C:\utv\Jobtechdev\jobtech2\jobtech-dev\
 
 /***/ })
 
-},[[2,"runtime"]]]);
+},[[5,"runtime"]]]);
 //# sourceMappingURL=styles.js.map
