@@ -2322,7 +2322,7 @@ var WHITEPAPERS = [
         'name': 'Värdeförrådskomponenter',
         'title': 'Värdeförrådskomponenter',
         'description': 'Kopplingen mellan standarder, strukturer och värdeförråd samt uppdateringsfrekvensen av de olika värdeförrådskomponenterna som Arbetsförmedlingen använder visas i en övergripande bild.',
-        'link': '../assets/files/Vardeforradskomponenter.png'
+        'link': '../assets/files/Vardeforradskomponenter.pdf'
     },
 ];
 
@@ -4284,7 +4284,7 @@ var ShowcaseComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\" *ngIf=\"item | async; let item; else loading\">\r\n\r\n  <nav aria-label=\"breadcrumb\">\r\n    <ol class=\"breadcrumb\">\r\n      <li class=\"breadcrumb-item\"><a [routerLink]=\"['/']\">Home</a></li>\r\n      <li class=\"breadcrumb-item\"><a [routerLink]=\"['/whitepapers']\">Whitepapers</a></li>\r\n      <li class=\"breadcrumb-item active\" aria-current=\"page\">{{item.title}}</li>\r\n    </ol>\r\n  </nav>\r\n\r\n  <div class=\"card\">\r\n    <iframe [src]=\"item.link | safe\" #pdfobject style=\"width: 100%;height: 700px\"></iframe>\r\n  </div>\r\n</div>\r\n\r\n<ng-template #loading>Laddar ...</ng-template>\r\n"
+module.exports = "<div class=\"container\" *ngIf=\"item | async; let item; else loading\">\r\n\r\n  <nav aria-label=\"breadcrumb\">\r\n    <ol class=\"breadcrumb\">\r\n      <li class=\"breadcrumb-item\"><a [routerLink]=\"['/']\">Home</a></li>\r\n      <li class=\"breadcrumb-item\"><a [routerLink]=\"['/whitepapers']\">Whitepapers</a></li>\r\n      <li class=\"breadcrumb-item active\" aria-current=\"page\">{{item.title}}</li>\r\n    </ol>\r\n  </nav>\r\n\r\n  <div class=\"card\">\r\n    <iframe [src]=\"item.link | safe\" #pdfobject width=\"100%\" height=\"700px\"></iframe>\r\n  </div>\r\n</div>\r\n\r\n<ng-template #loading>Laddar ...</ng-template>\r\n"
 
 /***/ }),
 
