@@ -621,9 +621,9 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\utv\Jobtechdev\jobtech2\jobtech-dev\node_modules\bootstrap\scss\bootstrap.scss */"./node_modules/bootstrap/scss/bootstrap.scss");
-__webpack_require__(/*! C:\utv\Jobtechdev\jobtech2\jobtech-dev\src\scss\styles.scss */"./src/scss/styles.scss");
-module.exports = __webpack_require__(/*! C:\utv\Jobtechdev\jobtech2\jobtech-dev\node_modules\ngx-toastr\toastr.css */"./node_modules/ngx-toastr/toastr.css");
+__webpack_require__(/*! C:\utv\Jobtechdev\news\jobtech-dev\node_modules\bootstrap\scss\bootstrap.scss */"./node_modules/bootstrap/scss/bootstrap.scss");
+__webpack_require__(/*! C:\utv\Jobtechdev\news\jobtech-dev\src\scss\styles.scss */"./src/scss/styles.scss");
+module.exports = __webpack_require__(/*! C:\utv\Jobtechdev\news\jobtech-dev\node_modules\ngx-toastr\toastr.css */"./node_modules/ngx-toastr/toastr.css");
 
 
 /***/ })
