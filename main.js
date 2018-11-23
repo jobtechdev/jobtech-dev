@@ -2337,6 +2337,14 @@ var WHITEPAPERS = [
         'description': 'Kopplingen mellan standarder, strukturer och värdeförråd samt uppdateringsfrekvensen av de olika värdeförrådskomponenterna som Arbetsförmedlingen använder visas i en övergripande bild.',
         'link': '../assets/files/Vardeforradskomponenter.pdf'
     },
+    {
+        'name': 'Digital frontrunners',
+        'title': 'Digital frontrunners',
+        'description': 'Explains how the Digital Frontrunners programme equips participants with new competencies for designing effective policy in the digital age.\n' +
+            'Highlights innovative methods that governments are using to solve four key challenges for the creation of skills policy to foster workforces that are fit for the future.\n' +
+            'Presents a ‘policy blueprint’ that policymakers and other stakeholders can follow to make more inclusive and responsive skills policy.\n',
+        'link': '../assets/files/Digital_Frontrunners_Web.pdf'
+    },
 ];
 
 
@@ -4157,7 +4165,7 @@ var UserService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n\n\n  <div class=\"card\">\n\n    <div class=\"jumbotron\">\n\n      <h2>Jobtech Store</h2>\n\n\n\n    </div>\n\n    <div class=\"card-body\">\n      <div class=\"row\">\n\n        <div class=\"col-md-12 col-sm-12 col-lg-12\">\n\n          <div class=\"card-text\">\n            <div class=\"col-md-9 col-sm-12 col-lg-8\">\n              <p>\n\n\n                Jobtech Store intends to gather and present thousands of digital labour market services, all in one place. The target audience is wide.\n                <br> All people from students to seniors who want to take on work and assignments. And everyone that has work to be done and need someone do it for them, whether it is an employment or some kind of short on-demand job or other “gig”.\n                <br>\n                <br>\n                Jobtech Store will help both end user groups to find digital services that are relevant to their situation and needs and at the same time help the service suppliers to drive relevant traffic to their digital services.\n\n                <br>\n                <br>\n                Our intention is to launch Jobtech Store early 2019 and in the meantime increase the number of services prior to launch.\n\n                Preview Jobtech Store on <a href=\"http://www.jobtechstore.se\" target=\"_blank\">Jobtech Store</a> and you are welcome to register your digital labour market service now.\n                Read more <a href=\"http://www.jobtechstore.se/about\" target=\"_blank\"> about Jobtech Store </a>\n                <br>\n                <br>\n                \n\n              </p>\n\n\n            </div>\n          </div>\n        </div>\n\n\n\n\n\n      </div>\n\n    </div>\n\n  </div>\n</div>\n\n\n"
+module.exports = "<div class=\"container\">\r\n\r\n\r\n  <div class=\"card\">\r\n\r\n    <div class=\"jumbotron\">\r\n\r\n      <h2>Jobtech Store</h2>\r\n\r\n\r\n\r\n    </div>\r\n\r\n    <div class=\"card-body\">\r\n      <div class=\"row\">\r\n\r\n        <div class=\"col-md-12 col-sm-12 col-lg-12\">\r\n\r\n          <div class=\"card-text\">\r\n            <div class=\"col-md-9 col-sm-12 col-lg-8\">\r\n              <p>\r\n\r\n\r\n                Jobtech Store intends to gather and present thousands of digital labour market services, all in one place. The target audience is wide.\r\n                <br> All people from students to seniors who want to take on work and assignments. And everyone that has work to be done and need someone do it for them, whether it is an employment or some kind of short on-demand job or other “gig”.\r\n                <br>\r\n                <br>\r\n                Jobtech Store will help both end user groups to find digital services that are relevant to their situation and needs and at the same time help the service suppliers to drive relevant traffic to their digital services.\r\n\r\n                <br>\r\n                <br>\r\n                Our intention is to launch Jobtech Store early 2019 and in the meantime increase the number of services prior to launch.\r\n\r\n                Preview Jobtech Store on <a href=\"http://www.jobtechstore.se\" target=\"_blank\">Jobtech Store</a> and you are welcome to register your digital labour market service now.\r\n                Read more <a href=\"http://www.jobtechstore.se/about\" target=\"_blank\"> about Jobtech Store </a>\r\n                <br>\r\n                <br>\r\n                \r\n\r\n              </p>\r\n\r\n\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n\r\n\r\n\r\n\r\n      </div>\r\n\r\n    </div>\r\n\r\n  </div>\r\n</div>\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -4584,7 +4592,7 @@ else {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\utv\Jobtechdev\showcase\jobtech-dev\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\utv\Jobtechdev\jobtech2\jobtech-dev\src\main.ts */"./src/main.ts");
 
 
 /***/ }),
