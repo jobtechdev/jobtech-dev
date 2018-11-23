@@ -17,6 +17,7 @@ import {PortableCareerComponent} from './showcase/portable-career/portable-caree
 import {ContactComponent} from './contact/contact.component';
 import {WhitepapersComponent} from './whitepapers/whitepapers.component';
 import {WhitepaperdetailsComponent} from './whitepapers/whitepaperdetails/whitepaperdetails.component';
+import {JobstoreComponent} from './showcase/jobstore/jobstore.component';
 
 export const routes: Routes = [
   // { path: '', redirectTo: 'race-list', pathMatch: 'full' },
@@ -38,7 +39,9 @@ export const routes: Routes = [
   {path: 'profile', component: ProfileComponent, canActivate: [KeycloakGuard]},
   {path: 'whitepapers', component: WhitepapersComponent},
   {path: 'whitepapers/:id', component: WhitepaperdetailsComponent},
+  {path: 'showcase/jobstore', component: JobstoreComponent},
   {path: '**', redirectTo: 'home', pathMatch: 'full'},
+
 
 ];
 

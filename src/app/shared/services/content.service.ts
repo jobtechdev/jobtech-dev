@@ -51,6 +51,14 @@ export class ContentService {
 export const SHOWCASES = [
 
   {
+    'title': 'Jobtech Store',
+    'details': "Jobtech Store intends to gather and present thousands of digital labour market services, all in one place. The target audience is wide. All people from students to seniors who want to take on work and assignments",
+    'link': './showcase/jobstore',
+    'image': 'assets/images/jobstore.jpg',
+    'type': 'GIG API'
+  },
+
+  {
     'title': 'My Portable Career',
     'details': "A 'career data management system' allowing 1) people to get control over their own career info, and 2) service providers to plug-in their services  to reach their target audience.",
     'link': './showcase/portable-career',
