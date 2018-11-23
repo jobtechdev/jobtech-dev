@@ -443,5 +443,13 @@ export const WHITEPAPERS = [
     'description': 'Kopplingen mellan standarder, strukturer och värdeförråd samt uppdateringsfrekvensen av de olika värdeförrådskomponenterna som Arbetsförmedlingen använder visas i en övergripande bild.',
     'link': '../assets/files/Vardeforradskomponenter.pdf'
   },
+  {
+    'name': 'Digital frontrunners',
+    'title': 'Digital frontrunners',
+    'description': 'Explains how the Digital Frontrunners programme equips participants with new competencies for designing effective policy in the digital age.\n' +
+      'Highlights innovative methods that governments are using to solve four key challenges for the creation of skills policy to foster workforces that are fit for the future.\n' +
+      'Presents a ‘policy blueprint’ that policymakers and other stakeholders can follow to make more inclusive and responsive skills policy.\n',
+    'link': '../assets/files/Digital_Frontrunners_Web.pdf'
+  },
 ];
 
