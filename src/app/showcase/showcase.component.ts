@@ -21,7 +21,7 @@ export class ShowcaseComponent implements OnInit {
 
   goToUrl(url): void {
     // window.location.href=url;
-    if (url === './showcase/portable-career'){
+    if (url === './showcase/portable-career' || './showcase/jobtechstore' ){
       window.location.href = url;
     } else {
       window.open(url, '_blank');
