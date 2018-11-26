@@ -4338,7 +4338,7 @@ var ShowcaseComponent = /** @class */ (function () {
     };
     ShowcaseComponent.prototype.goToUrl = function (url) {
         // window.location.href=url;
-        if (url === './showcase/portable-career') {
+        if (url === './showcase/portable-career' || './showcase/jobtechstore') {
             window.location.href = url;
         }
         else {
