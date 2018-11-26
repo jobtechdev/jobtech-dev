@@ -2120,12 +2120,7 @@ var APIDATASETS = [
         ],
         'image': 'assets/images/api-puff_x239.jpg',
         'headimage': 'assets/images/api-puff_x239.jpg',
-        'externallinks': [
-            {
-                'name': 'Go to Webservice',
-                'link': 'http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?',
-            },
-        ],
+        'externallinks': [],
         'files': []
     },
     {
