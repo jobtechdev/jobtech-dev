@@ -2099,9 +2099,7 @@ var APIDATASETS = [
             {
                 'header': 'The code',
                 'description': 'By visualizing and practically show how ownership of your own data could work, it will become   easier for others to take stand on the concept.\n' +
-                    'We strive to reuse as much as possible for not inventing the wheel again. The project in influenced by <a href="http://mydata.org" target="_blank">mydata.org</a>\n' +
-                    '\n' +
-                    'The project is divided into four subsystem:\n',
+                    'We strive to reuse as much as possible for not inventing the wheel again. The project in influenced by <a href="http://mydata.org" target="_blank">mydata.org</a>\n'
             },
             {
                 'header': '',
