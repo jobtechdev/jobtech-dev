@@ -200,12 +200,7 @@ export const APIDATASETS = [
 
     'headimage': 'assets/images/api-puff_x239.jpg',
     'externallinks': [
-      {
-        'name': 'Go to Webservice',
 
-        'link': 'http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?',
-
-      },
 
     ],
     'files': []
