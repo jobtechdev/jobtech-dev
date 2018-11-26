@@ -138,8 +138,7 @@ export const APIDATASETS = [
   {
     'name': 'JobTech MyData',
     'title': 'JobTech MyData',
-    'shortDescription': 'MyData is a movement aiming for individuals to have control over their own data. Jobtech MyData explores a concept to achieve that primary for the labor market.\n' +
-      'The goal is to see the potential opportunities for the Swedish labor market. \n',
+    'shortDescription': 'Is it possible to create a distributed and decentralized data storage, containing information of the CV data of the individual. Making it accessible for those for those who have an interest in reading or writing in the data but on the basis that the individual always has control of the information? ',
     'texts': [
       {
         'header': 'Background',
