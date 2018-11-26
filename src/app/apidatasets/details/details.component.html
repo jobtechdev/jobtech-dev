@@ -16,12 +16,40 @@
 
     <div class="card-body">
       <div class="row">
-        <div class="col-md-9 col-sm-8 col-lg-9">
+        <div class="col-md-9 col-sm-12 col-lg-9">
           <div class="card-text" *ngFor="let item of item.texts">
             <h4>{{item.header}}</h4>
             <p [innerHTML]="item.description"></p>
+            <div class="row" align="center">
+              <div class="links col-md-12 col-sm-12 col-lg-12">
+                <!-- <span *ngIf="this.name == 'occupational_description'" [innerHTML]="mye" innerHTML="{{mye}}"></span> -->
+                <a *ngFor="let item of item.links" class="btn btn-info card-link" href="{{item.link}}" target="_blank">
+                  {{item.name}}
+                </a>
+              </div>
+            </div>
           </div>
+          <!-- <div class="card-text" *ngIf="this.name == 'occupational_description'">
+            <!-- <h4>ACCESS</h4>
+            <p>To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc.
+              On a second phase, we will use this information to create an account where you will be able to manage your keys directly.
+            </p>
+            <p>
+              By requesting the API Key, you are authorizing the data to be stored for as long as you will have access to this API.           </p>
+            <div class="">
+              <input type="checkbox" name="Authorize" value="Autorize" (change)="check($event)"> I authorize the data to be stored for as long as I will have access to this API<br>
+
+
+
+
+
+
+            </div>
+
+          </div>
+          -->
         </div>
+
         <div class="col-md-3 col-sm-4 col-lg-3 card-downloads" *ngIf="item.files?.length > 0">
           <h4>Downloads</h4>
           <div *ngFor="let item of item.files">
@@ -30,7 +58,8 @@
         </div>
       </div>
       <div class="row" align="center">
-        <div class="links col-12">
+        <div class="links col-md-9 col-sm-8 col-lg-9">
+          <!-- <span *ngIf="this.name == 'occupational_description'" [innerHTML]="mye" innerHTML="{{mye}}"></span> -->
           <a *ngFor="let item of item.externallinks" class="btn btn-info card-link" href="{{item.link}}" target="_blank">
             {{item.name}}
           </a>

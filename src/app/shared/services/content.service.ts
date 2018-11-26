@@ -136,6 +136,81 @@ export const SHOWCASES = [
 
 export const APIDATASETS = [
   {
+    'name': 'JobTech MyData',
+    'title': 'JobTech MyData',
+    'shortDescription': 'MyData is a movement aiming for individuals to have control over their own data. Jobtech MyData explores a concept to achieve that primary for the labor market.\n' +
+      'The goal is to see the potential opportunities for the Swedish labor market. \n',
+    'texts': [
+      {
+        'header': 'Background',
+        'description': 'MyData is a movement aiming for individuals to have control over their own data. Jobtech MyData explores a concept to achieve that primary for the labor market.\n' +
+          'The goal is to see the potential opportunities for the Swedish labor market. \n' +
+          'Therefor we have started an experimental innovation team. They will to try the hypothesis that it is possible to create a distributed and decentralized data storage, containing information of the CV data of the individual. Making it accessible for those for those who have an interest in reading or writing in the data but on the basis that the individual always has control of the information.\n',
+      },
+      {
+        'header': 'Purpose and goal',
+        'description': 'Protect the individual\'s right to his data (MyData movement)\n Massive data sets collected by companies and authorities creates possibility to see patterns in the behavior of people, and create new products and services to create a new value. The data can also be used for other purposes for example monitoring or affect opinions in politics. To control a lot of individual data could mean a high power concentration and therefor a huge risk. To “vaccinate” for this kind of impact we want to reach a solution were the individual’s right to their own data is the starting point, and concrete moves the power back to the individuals to act easily against the power concentration and information monopoly.',
+      },
+      {
+        'header': 'Community building and innovation power',
+        'description': 'Our second goal is to enable innovation force to authorities. To be able to in a better way collaborate and develop as powerful digital services as private startups. The private and the public sector should be able to collaborate in both development and with common infrastructure/ standards for increasing the public benefit. By enabling a “digital bureaucracy”, i.e. traceability and standardized communication, new more transparent and effective forms of governance can be established. This is about competitiveness for Sweden and EU, but basically it is primary about increased social benefits for the entire humanity.\n' +
+          'The world of today is global and flows from all corners of the world. Opens source is a global movement and has the power to improve, both for small and large countries and organizations.\n',
+      },
+      {
+        'header': 'Promote the labor market',
+        'description': 'Simplify and increase the efficiency of career work by catalyzing the ecosystem around Jobtech. \n' +
+          'New and better services for jobseekers and employers. Free and efficient cross-border mobility, reducing the cost of employers and an easier user experience. \n',
+      },
+      {
+        'header': 'Method',
+        'description': 'An innovation team, consisting competence in programming, UX, infrastructure, encryption/security and expertise form the agency. The innovation team works iteratively and will achieve higher and higher goals / milestones. For example the first step is to get all system components in place with very limited functionality. Later on the complexity is increased and finally there is an embryo to a product that can be evaluated.',
+      },
+      {
+        'header': 'Transparence and collaboration',
+        'description': 'Our goal is to be 100% transparence and we will put all code and documentation on Github. The meaning is to consolidate knowledge and increase collaboration with other initiatives working on the same thought. We would be very happy to get in contact with you and we will support you with our knowledge but also learn from yours.',
+      },
+      {
+        'header': 'The code',
+        'description': 'By visualizing and practically show how ownership of your own data could work, it will become   easier for others to take stand on the concept.\n' +
+          'We strive to reuse as much as possible for not inventing the wheel again. The project in influenced by <a href="http://mydata.org" target="_blank">mydata.org</a>\n' +
+          '\n' +
+          'The project is divided into four subsystem:\n',
+      },
+      {
+        'header': '',
+        'description': '<p>Projektet är indelat i 4 delsystem:</p>\n' +
+          '<ul>\n' +
+          '<li><a href="https://github.com/JobtechSwe/mydata-app">mydata-app</a>: An app were the individuals handles their data.</li>\n' +
+          '<li><a href="https://github.com/JobtechSwe/mydata-operator">mydata-operator</a>: A technical operator who granted an approval from the individual, manages the communication between the individual, the data snd an external service.</li>\n' +
+
+          '<li><a href="https://github.com/JobtechSwe/mydata-cv">mydata-cv</a>: a sample servce that reads /writes to the individual’s data after being allowed to. (Data Source and Data Sink)</li>\n' +
+
+          '<li><a href="https://github.com/JobtechSwe/mydata-pds">mydata-pds</a>: secure data storage, only available for the individual. PDS stands for Personal Data Storage.</li>\n' +
+          '</ul>',
+      },      {
+        'header': '',
+        'description': '',
+      },
+
+
+    ],
+
+    'image': 'assets/images/api-puff_x239.jpg',
+
+
+    'headimage': 'assets/images/api-puff_x239.jpg',
+    'externallinks': [
+      {
+        'name': 'Go to Webservice',
+
+        'link': 'http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?',
+
+      },
+
+    ],
+    'files': []
+  },
+  {
     'name': 'Taxonomi Service',
     'title': 'Taxonomi Service',
     'shortDescription': 'The Taxonomi Service of Arbetsförmedlingen. This webservice contains data commonly used by Arbetsförmedlingen',

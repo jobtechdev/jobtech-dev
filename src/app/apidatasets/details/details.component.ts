@@ -15,6 +15,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   item: Observable<any>;
   name: string;
   private sub: any;
+  //mye: string;
 
   constructor(private route: ActivatedRoute, private contentService: ContentService) {
 
@@ -24,9 +25,22 @@ export class DetailsComponent implements OnInit, OnDestroy {
     });
   }
   ngOnInit() {
+    //this.mye = '<div class="btn btn-dark disabled" disabled> Request API-key</div>';
   }
-
   ngOnDestroy() {
     this.sub.unsubscribe();
   }
+  //check(e) {
+  // console.log(this.mye);
+  //if (e.target.checked) {
+  //this.mye = '<a  class="btn btn-info" href="mailto:jobtechdev@arbetsformedlingen.se?subject=API request – Occupational Description&body= Name: %0dSurename: %0dCompany name (if applicable): %0dApplication name: %0dApplication  description:"> Request API-key</a>'
+
+
+  //} else {
+  //this.mye = '<div class="btn btn-dark disabled" > Request API-key</div>';
+
+  //}
+  //}
+
 }
+
