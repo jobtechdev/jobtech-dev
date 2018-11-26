@@ -53,7 +53,7 @@ export const SHOWCASES = [
   {
     'title': 'Jobtech Store',
     'details': "Jobtech Store intends to gather and present thousands of digital labour market services, all in one place. The target audience is wide. All people from students to seniors who want to take on work and assignments",
-    'link': './showcase/jobstore',
+    'link': './showcase/jobtechstore',
     'image': 'assets/images/jobstore.jpg',
     'type': 'GIG API'
   },

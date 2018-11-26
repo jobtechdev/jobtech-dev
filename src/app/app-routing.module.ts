@@ -39,7 +39,7 @@ export const routes: Routes = [
   {path: 'profile', component: ProfileComponent, canActivate: [KeycloakGuard]},
   {path: 'whitepapers', component: WhitepapersComponent},
   {path: 'whitepapers/:id', component: WhitepaperdetailsComponent},
-  {path: 'showcase/jobstore', component: JobstoreComponent},
+  {path: 'showcase/jobtechstore', component: JobstoreComponent},
   {path: '**', redirectTo: 'home', pathMatch: 'full'},
 
 
