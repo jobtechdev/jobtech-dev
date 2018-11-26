@@ -177,7 +177,7 @@ export const APIDATASETS = [
       },
       {
         'header': '',
-        'description': '<p>Projektet är indelat i 4 delsystem:</p>\n' +
+        'description': '<p>The project is divided into four subsystem:</p>\n' +
           '<ul>\n' +
           '<li><a href="https://github.com/JobtechSwe/mydata-app">mydata-app</a>: An app were the individuals handles their data.</li>\n' +
           '<li><a href="https://github.com/JobtechSwe/mydata-operator">mydata-operator</a>: A technical operator who granted an approval from the individual, manages the communication between the individual, the data snd an external service.</li>\n' +
