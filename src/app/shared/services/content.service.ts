@@ -374,7 +374,7 @@ export const APIDATASETS = [
         'links': [
           {
             'name': 'Request Access',
-            'link': 'mailto:jobtechdev@arbetsformedlingen.se?subject=API request – Occupational Description&body= Name: %0dSurname: %0dCompany name (if applicable): %0dApplication name: %0dApplication  description:',
+            'link': 'mailto:apirequest@jobtechdev.se?subject=API request – Occupational Description&body= Name: %0dSurname: %0dCompany name (if applicable): %0dApplication name: %0dApplication  description:',
           },
           {
             'name': 'API Console',
