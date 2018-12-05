@@ -369,8 +369,8 @@ export const APIDATASETS = [
         'description': 'Occupational description is a webservice, it contain descriptions of nearly 350 different occupations. The webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application. During 2018 there will be a redirect to a new database with better structure.\n\n' + 'The old webservice & the new API will live in parallel for about one year. However we do not support the web service API any longer. All users of the web service API should request access of the new API following the instruction below. \n',
       },
       {
-        'header': 'The new API is ready!',
-        'description': 'To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. On a second phase, we will use this information to create an account where you will be able to manage your keys directly. \n\nBy requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.',
+        'header': 'The new API Yrkesinfo is ready!',
+        'description': 'To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. On a second phase, we will use this information to create an account where you will be able to manage your keys directly.\n\n Authentication\nOnce the keys are acquired, the authentication to the services is done using two query parameters client_id and client_secret. These are required on all requests. Below is a sample of how query parameters are used: \n\ https://apiertest.arbetsformedlingen.se/yrkesinfo/publik/raf/v1/yrken?client_id=123&client_secret=123\n\nBy requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.',
         'links': [
           {
             'name': 'Request Access',

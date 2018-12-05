@@ -1,0 +1,39 @@
+[31merror[39m: 
+[31merror[39m: [31mCannot read property 'tag_name' of undefined[39m
+[31merror[39m: [31mTypeError: Cannot read property 'tag_name' of undefined[39m
+[31m    at ApiConsoleSources._downloadFromReleaseInfo (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:200:29)[39m
+[31m    at githubResolver.getLatestInfo.then (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:169:26)[39m
+[31m    at <anonymous>[39m
+[31merror[39m: 
+[31merror[39m: 
+[31merror[39m: [31mCannot read property 'tag_name' of undefined[39m
+[31merror[39m: [31mTypeError: Cannot read property 'tag_name' of undefined[39m
+[31m    at ApiConsoleSources._downloadFromReleaseInfo (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:200:29)[39m
+[31m    at githubResolver.getLatestInfo.then (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:169:26)[39m
+[31m    at <anonymous>[39m
+[31m    at process._tickCallback (internal/process/next_tick.js:188:7)[39m
+[31merror[39m: 
+[31merror[39m: 
+[31merror[39m: [31mCannot read property 'tag_name' of undefined[39m
+[31merror[39m: [31mTypeError: Cannot read property 'tag_name' of undefined[39m
+[31m    at ApiConsoleSources._downloadFromReleaseInfo (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:200:29)[39m
+[31m    at githubResolver.getLatestInfo.then (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:169:26)[39m
+[31m    at <anonymous>[39m
+[31m    at process._tickCallback (internal/process/next_tick.js:188:7)[39m
+[31merror[39m: 
+[31merror[39m: 
+[31merror[39m: [31mCannot read property 'tag_name' of undefined[39m
+[31merror[39m: [31mTypeError: Cannot read property 'tag_name' of undefined[39m
+[31m    at ApiConsoleSources._downloadFromReleaseInfo (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:200:29)[39m
+[31m    at githubResolver.getLatestInfo.then (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:169:26)[39m
+[31m    at <anonymous>[39m
+[31m    at process._tickCallback (internal/process/next_tick.js:188:7)[39m
+[31merror[39m: 
+[31merror[39m: 
+[31merror[39m: [31mCannot read property 'tag_name' of undefined[39m
+[31merror[39m: [31mTypeError: Cannot read property 'tag_name' of undefined[39m
+[31m    at ApiConsoleSources._downloadFromReleaseInfo (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:200:29)[39m
+[31m    at githubResolver.getLatestInfo.then (C:\Users\perui\AppData\Roaming\npm\node_modules\api-console-cli\node_modules\@api-components\api-console-sources-resolver\lib\api-console-sources.js:169:26)[39m
+[31m    at <anonymous>[39m
+[31m    at process._tickCallback (internal/process/next_tick.js:188:7)[39m
+[31merror[39m: 
