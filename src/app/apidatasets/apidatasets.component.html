@@ -1,3 +1,5 @@
+
+
 <div class="container">
 
   <div class="container-fluid">
@@ -9,17 +11,29 @@
 
 
     <div class="mt-3 card-group" *ngIf="items | async; let items; else loading">
-      <a class="card mb-4" *ngFor="let item of items" [routerLink]="['./', item.name]" routerLinkActive="active">
+      <a class="card mb-3" *ngFor="let item of items" [routerLink]="['./', item.name]" routerLinkActive="active">
+        <div class="circleBase circle"></div>
+        <div class="triangle"></div>
+        <div class="triangleb"></div>
+        <div class="trianglebp"></div>
+        <div class="trianglet"></div>
 
-        <img class="card-img-top" [src]="item.image" [alt]="item.title">
-        <div class="card-body">
+
+
+        <div class="jumbotron">
           <h5 class="card-title">{{item.title}}</h5>
+        </div>
+
+        <div class="card-body">
+
+
           <p class="card-text">{{item.shortDescription }}</p>
         </div>
 
-      </a>
 
-    </div>
+      </a>
+      </div>
+
   </div>
 
   <ng-template #loading>Laddar ...</ng-template>

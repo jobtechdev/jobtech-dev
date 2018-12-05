@@ -138,7 +138,7 @@ export const APIDATASETS = [
   {
     'name': 'JobTech MyData',
     'title': 'JobTech MyData',
-    'shortDescription': 'Is it possible to create a distributed and decentralized data storage, containing information of the CV data of the individual. Making it accessible for those for those who have an interest in reading or writing in the data but on the basis that the individual always has control of the information? ',
+    'shortDescription': 'MyData is a movement aiming for individuals to have control over their own data.',
     'texts': [
       {
         'header': 'Background',
@@ -366,33 +366,33 @@ export const APIDATASETS = [
     'texts': [
       {
         'header': 'Description',
-        'description': 'Occupational description is a webservice, it contain descriptions of nearly 350 different occupations.\n\nThe webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application.\n\nDuring 2018 there will be a redirect to a new database with better structure.The old webservice & the new API will live in parallel for about 1 year. Go to the New API for more information.',
+        'description': 'Occupational description is a webservice, it contain descriptions of nearly 350 different occupations. The webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application. During 2018 there will be a redirect to a new database with better structure.\n\n' + 'The old webservice & the new API will live in parallel for about one year. However we do not support the web service API any longer. All users of the web service API should request access of the new API following the instruction below. \n',
+      },
+      {
+        'header': 'The new API is ready!',
+        'description': 'To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. On a second phase, we will use this information to create an account where you will be able to manage your keys directly. \n\nBy requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.',
+        'links': [
+          {
+            'name': 'Request Access',
+            'link': 'mailto:jobtechdev@arbetsformedlingen.se?subject=API request – Occupational Description&body= Name: %0dSurname: %0dCompany name (if applicable): %0dApplication name: %0dApplication  description:',
+          },
+          {
+            'name': 'API Console',
+            'link': 'raml_vagledning/index.html',
+          },
+        ],
       },
       {
         'header': '',
-        'description': ''
+        'description': '<i>You can request access to this API via email to <a href="mailto:apirequest@jobtechdev.se">apirequest@jobtechdev.se</a>. Please include the following in your request:\n\n<b>Email Subject:</b> API request – Occupational Description\n\n <b>Email Body:</b>\nName:\nSurname:\nCompany name (if applicable):\nApplication name:\nApplication description (please be short):</i> ',
+
       }
     ],
     'image': 'assets/images/occupation-puff.jpg',
     'headimage': 'assets/images/occupation-head.jpg',
     'externallinks': [
-      {
-        'name': 'Go to Webservice',
-        'link': 'http://api.arbetsformedlingen.se/af/v0/Occupation/wsoccupation.asmx',
-      },
-
-      {
-        'name': 'Go to New API',
-        'link': 'raml_vagledning/index.html',
-      },
-
     ],
     'files': [
-      {
-        'name': '',
-        'url': '',
-      },
-
       {
         'name': 'License (sv)',
         'url': 'https://www.arbetsformedlingen.se/download/18.1974235114fa922d37751b2/1441803774120/Licens+f%C3%B6r+anv%C3%A4ndning+av+Arbetsf%C3%B6rmedlingens+%C3%B6ppna+data.pdf',

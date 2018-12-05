@@ -4,11 +4,26 @@ $space-between-cards:1.2em;
 $zoom-to-scale:1.05;
 $zoom-transition-time:200ms;
 
+
+
+
 .card-group .card {
+  overflow: hidden;
+  background: #767070;
+
+  box-shadow: 0px 0px 1em #000000;
+  border: solid;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+  border-width: 0px;
+  border-color: #B00DE0;
   margin-right: $space-between-cards;
   cursor: pointer;
   min-width: 15rem;
   max-width: 200px;
+  height: 300px;
+  margin-top: 20px;
 
   img{
     /* Do not scale the image */
@@ -18,10 +33,162 @@ $zoom-transition-time:200ms;
 
 
   }
+
+}
+.circleBase {
+  border-radius: 50%;
+}
+.circle {
+/*  -ms-transform: rotate(-51deg); !* IE 9 *!
+  -webkit-transform: rotate(-51deg); !* Safari *!
+  transform: rotate(-51deg);
+  top:48px;
+  right:10px;
+  z-index: 10;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-top: 5px solid #AE77D7;
+  border-right: 5px solid #AE77D7;
+  border-bottom: 5px solid #3D3B3C;
+  border-left: 5px solid #3D3B3C;*/
+/*  -ms-transform: rotate(-51deg); !* IE 9 *!
+  -webkit-transform: rotate(-51deg); !* Safari *!
+  transform: rotate(-51deg);
+  top:111px;
+  left:6px;
+  z-index: 10;
+  position: absolute;
+  width: 10px;
+  height:10px;
+
+  background: #AE77D7;*/
+
+}
+.triangle{
+  /*
+  -ms-transform: rotate(265deg); !* IE 9 *!
+  -webkit-transform: rotate(265deg); !* Safari *!
+  transform: rotate(265deg);
+  top:75px;
+  left:9px;
+  z-index: 10;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+
+  border-right:15px solid #AE77D7;
+  */
+
+
 }
 
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.triangleb{
+  -ms-transform: rotate(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  bottom: -87px;
+  right: -24px;
+  z-index: 10;
+  position: absolute;
+  width: 275px;
+  height: 100px;
+  background: #3D3B3C;
+
+
+
+}
+.trianglet{
+
+  -ms-transform: rotate(5deg); /* IE 9 */
+  -webkit-transform: rotate(5deg);
+  transform: rotate(2deg);
+  top: -22px;
+  right: -24px;
+  z-index: auto;
+  position: absolute;
+  width: 275px;
+  height: 100px;
+  background: #AE77D7;
+
+
+
+}
+.trianglebp{
+
+  -ms-transform: rotate(5deg); /* IE 9 */
+  -webkit-transform: rotate(5deg);
+  transform: rotate(2deg);
+  bottom: -97px;
+  right: -24px;
+  z-index: auto;
+  position: absolute;
+  width: 275px;
+  height: 100px;
+  background: #AE77D7;
+
+
+
+}
+
+
+.card-body{
+  padding-top: 0px;
+
+  p{
+    position: relative;
+    top:15px;
+color:#fff;
+
+  }
+
+}
+.jumbotron{
+
+  position: relative;
+  -ms-transform: rotate(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg); /* Safari */
+  transform: rotate(-5deg);
+  left:-10px;
+  top:-15px;
+  width: 300px;
+  padding-left: 20px;
+  color: #fff;
+  height: 80px;
+  padding-top: 25px;
+  margin-bottom: 0px;
+
+background: #3D3B3C;
+  h5{
+    overflow: auto;
+    color:#fff;
+    position: relative;
+    top:0px;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari */
+    transform: rotate(5deg);
+  }
+
+
+
+}
 @include media-breakpoint-up(sm) {
   .card-group .card {
+
     max-width: 15rem;
   }
 }
@@ -57,5 +224,6 @@ a:hover {
   -moz-transform: scale($zoom-to-scale);
   transition: all $zoom-transition-time ease-in;
   transform: scale($zoom-to-scale);
+
 }
 
