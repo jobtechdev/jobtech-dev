@@ -7,7 +7,6 @@ import {HttpClientModule} from '@angular/common/http';
 import './rxjs-extensions';
 import {ToastrModule} from 'ngx-toastr';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {CookieLawModule} from 'angular2-cookie-law';
 import {TagInputModule} from 'ngx-chips';  // https://www.npmjs.com/package/ngx-chips
 
 import {ContentService} from './shared/services/content.service';
@@ -77,7 +76,6 @@ import { JobstoreComponent } from './showcase/jobstore/jobstore.component';
     HttpClientModule,
     AppRoutingModule,
     NgbModule.forRoot(),
-    CookieLawModule,
     ToastrModule.forRoot({positionClass: 'toast-top-full-width'}),
     TagInputModule
   ],
