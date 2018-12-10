@@ -8,30 +8,6 @@
   background-image: url("../../assets/images/startpage-header-bg.jpg");
 
 }
-.work-in-progress {
-  //max-width: 1200px;
-  background-color: #0967b2;
-  // line-height: 62px;
-  text-align: center;
-  padding: 15px 20px;
-  border-radius: 0px;
-
-  p {
-    font-size: 18px;
-    color: $white;
-    margin: 0;
-
-    @media screen and (max-width: $medium-devices) {
-      font-size: 14px;
-    }
-
-    a {
-      color: $white !important;
-      font-weight: bold;
-    }
-  }
-
-}
 
 .container-fluid {
   max-width: 1200px;
