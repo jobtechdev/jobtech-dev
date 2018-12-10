@@ -6,136 +6,138 @@ header {
   background-position: 0% 30%;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
-.container-fluid {
-  padding: 0 0 0 0;
-  @include media-breakpoint-up(sm) {
-    padding: 0 0 0.5rem 1.5rem;
+
+  .container-fluid {
+    padding: 0 0 0 0;
+    @include media-breakpoint-up(sm) {
+      padding: 0 0 0.5rem 1.5rem;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: 0 2rem 1rem 5rem;
+    }
   }
-  @include media-breakpoint-up(lg) {
-    padding: 0 2rem 1rem 5rem;
-  }
-}
 
-.navbar-default {
-  background-color: transparent !important;
-  border-color: transparent !important;
-}
-
-.navbar-toggler {
-  border: none !important;
-  &:hover {
+  .navbar-default {
     background-color: transparent !important;
+    border-color: transparent !important;
   }
-  .icon-bar {
-    background-color: $white !important;
-  }
-}
 
-.navbar-nav {
-  margin-top: 15px;
-  margin-left: 50px;
-  line-height: 60px;
-  li {
-    margin-right: 15px;
-    a {
+  .navbar-toggler {
+    border: none !important;
+    &:hover {
       background-color: transparent !important;
-      text-transform: uppercase;
-      color: #b1b3b4;
-      font-weight: bold;
-      transition: all 0.2s;
-      &:hover {
-        background-color: transparent;
-        color: $white;
+    }
+    .icon-bar {
+      background-color: $white !important;
+    }
+  }
+
+  .navbar-nav {
+    margin-top: 15px;
+    margin-left: 50px;
+    line-height: 60px;
+    li {
+      margin-right: 15px;
+      a {
+        background-color: transparent !important;
+        text-transform: uppercase;
+        color: #b1b3b4;
+        font-weight: bold;
+        transition: all 0.2s;
+        &:hover {
+          background-color: transparent;
+          color: $white;
+        }
+      }
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+    img {
+      margin: auto;
+      height: 1.5rem;
+    }
+    @include media-breakpoint-up(md) {
+      display: block;
+      font-size: 1.25rem;
+      img {
+        height: 3rem;
       }
     }
   }
-  li:last-child {
-    margin-right: 0;
-  }
-}
 
-.navbar-brand {
-  font-size: 1rem;
-  img {
-    margin: auto;
-    height: 1.5rem;
-  }
-  @include media-breakpoint-up(md) {
-    display: block;
-    font-size: 1.25rem;
-    img {
-      height: 3rem;
+  .navbar-collapse {
+    border: none !important;
+    &.in {
+      .navbar-nav {
+        margin-left: 0;
+      }
+    }
+    &.collapsing {
+      -webkit-transition: none;
+      transition: none;
     }
   }
-}
 
-.navbar-collapse {
-  border: none !important;
-  &.in {
-    .navbar-nav {
-      margin-left: 0;
-    }
-  }
-  &.collapsing {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
-.home {
-  background-image: url('/assets/images/startpage-header-bg.jpg')
-}
-
-.assets {
-  background-image: url('/assets/images/product-header.jpg')
-}
-
-.platform {
-  background-image: url('/assets/images/vision-header.jpg')
-}
-
-.showcase {
-  background-image: url('/assets/images/insights-header.jpg')
-}
-
-.news {
-  background-image: url('/assets/images/news-header.jpg')
-}
-
-.nowrap {
-  white-space: nowrap;
-}
-
-.auth-links a:hover {
-  text-decoration: none;
-}
-
-.nav-page-title {
-  display: inline-block;
-}
-
-.page-title {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 300;
-  display: none;
-
-}
-.page-text {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: normal;
-
+  .home {
+    background-image: url('/assets/images/startpage-header-bg.jpg')
   }
 
+  .assets {
+    background-image: url('/assets/images/product-header.jpg')
+  }
 
-@include media-breakpoint-up(md) {
+  .platform {
+    background-image: url('/assets/images/vision-header.jpg')
+  }
+
+  .showcase {
+    background-image: url('/assets/images/insights-header.jpg')
+  }
+
+  .news {
+    background-image: url('/assets/images/news-header.jpg')
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .auth-links a:hover {
+    text-decoration: none;
+  }
+
   .nav-page-title {
-    display: none;
+    display: inline-block;
   }
+
   .page-title {
-    display: block;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+    display: none;
+
   }
-}
+  .page-text {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: normal;
+
+  }
+
+  @include media-breakpoint-up(md) {
+    .nav-page-title {
+      display: none;
+    }
+    .page-title {
+      display: block;
+    }
+  }
+
