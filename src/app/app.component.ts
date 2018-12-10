@@ -21,27 +21,4 @@ export class AppComponent {
       }
     });
   }
-  ngOnInit () {
-    window.addEventListener("load", function(){
-      window.cookieconsent.initialise({
-        'palette': {
-          'popup': {
-            'background': '#343a40',
-
-          },
-          'button': {
-            'background': '#0967b1',
-
-          }
-        },
-        'showLink': false,
-        'theme': "classic",
-        "static": true,
-        "content": {
-          "message": "This website uses cookies to ensure you to get the best\n" +
-            "experience. By continuing to browse the site, you're agreeing to our use of cookies."
-        }
-      })});
-
-  }
 }
