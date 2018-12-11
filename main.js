@@ -4649,7 +4649,7 @@ else {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\proj\jobtech-dev\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\yrkesinfo\jobtech-dev\src\main.ts */"./src/main.ts");
 
 
 /***/ }),

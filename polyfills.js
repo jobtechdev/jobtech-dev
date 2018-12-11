@@ -9490,7 +9490,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\proj\jobtech-dev\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\yrkesinfo\jobtech-dev\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
