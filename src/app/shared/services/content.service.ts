@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Itemm, Whitepapers} from '../model/item';
+import {Itemm, Whitepapers,} from '../model/item';
 import {Item} from '../model/item';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/observable/of';
@@ -45,7 +45,6 @@ export class ContentService {
   getWhitepapers(): Observable<Whitepapers[]> {
     return Observable.of(WHITEPAPERS);
   }
-
 }
 
 export const SHOWCASES = [
@@ -519,4 +518,5 @@ export const WHITEPAPERS = [
     'link': '../assets/files/Digital_Frontrunners_Web.pdf'
   },
 ];
+
 

@@ -41,6 +41,7 @@ import { WhitepaperdetailsComponent } from './whitepapers/whitepaperdetails/whit
 import {SafePipe} from './safepipe/safe.pipe';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { JobstoreComponent } from './showcase/jobstore/jobstore.component';
+import { WorkComponent } from './work/work.component';
 
 
 @NgModule({
@@ -65,7 +66,8 @@ import { JobstoreComponent } from './showcase/jobstore/jobstore.component';
     WhitepapersComponent,
     WhitepaperdetailsComponent,
     SafePipe,
-    JobstoreComponent
+    JobstoreComponent,
+    WorkComponent
   ],
   imports: [
     PdfViewerModule,
