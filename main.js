@@ -910,12 +910,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _whitepapers_whitepapers_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./whitepapers/whitepapers.component */ "./src/app/whitepapers/whitepapers.component.ts");
 /* harmony import */ var _whitepapers_whitepaperdetails_whitepaperdetails_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./whitepapers/whitepaperdetails/whitepaperdetails.component */ "./src/app/whitepapers/whitepaperdetails/whitepaperdetails.component.ts");
 /* harmony import */ var _showcase_jobstore_jobstore_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./showcase/jobstore/jobstore.component */ "./src/app/showcase/jobstore/jobstore.component.ts");
+/* harmony import */ var _work_work_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./work/work.component */ "./src/app/work/work.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -947,6 +949,7 @@ var routes = [
     { path: 'platform', component: _platform_platform_component__WEBPACK_IMPORTED_MODULE_5__["PlatformComponent"] },
     { path: 'showcase', component: _showcase_showcase_component__WEBPACK_IMPORTED_MODULE_7__["ShowcaseComponent"] },
     { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_16__["ContactComponent"] },
+    { path: 'work', component: _work_work_component__WEBPACK_IMPORTED_MODULE_20__["WorkComponent"] },
     { path: 'showcase/portable-career', component: _showcase_portable_career_portable_career_component__WEBPACK_IMPORTED_MODULE_15__["PortableCareerComponent"] },
     { path: 'profile', component: _account_profile_profile_component__WEBPACK_IMPORTED_MODULE_6__["ProfileComponent"], canActivate: [_shared_services_keycloak_keycloak_guard__WEBPACK_IMPORTED_MODULE_10__["KeycloakGuard"]] },
     { path: 'service', component: _account_job_service_list_job_service_list_component__WEBPACK_IMPORTED_MODULE_11__["JobServiceListComponent"], canActivate: [_shared_services_keycloak_keycloak_guard__WEBPACK_IMPORTED_MODULE_10__["KeycloakGuard"]] },
@@ -1106,6 +1109,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _safepipe_safe_pipe__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./safepipe/safe.pipe */ "./src/app/safepipe/safe.pipe.ts");
 /* harmony import */ var ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ng2-pdf-viewer */ "./node_modules/ng2-pdf-viewer/ng2-pdf-viewer.es5.js");
 /* harmony import */ var _showcase_jobstore_jobstore_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./showcase/jobstore/jobstore.component */ "./src/app/showcase/jobstore/jobstore.component.ts");
+/* harmony import */ var _work_work_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./work/work.component */ "./src/app/work/work.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1122,6 +1126,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
  // https://www.npmjs.com/package/ngx-chips
+
 
 
 
@@ -1178,7 +1183,8 @@ var AppModule = /** @class */ (function () {
                 _whitepapers_whitepapers_component__WEBPACK_IMPORTED_MODULE_35__["WhitepapersComponent"],
                 _whitepapers_whitepaperdetails_whitepaperdetails_component__WEBPACK_IMPORTED_MODULE_36__["WhitepaperdetailsComponent"],
                 _safepipe_safe_pipe__WEBPACK_IMPORTED_MODULE_37__["SafePipe"],
-                _showcase_jobstore_jobstore_component__WEBPACK_IMPORTED_MODULE_39__["JobstoreComponent"]
+                _showcase_jobstore_jobstore_component__WEBPACK_IMPORTED_MODULE_39__["JobstoreComponent"],
+                _work_work_component__WEBPACK_IMPORTED_MODULE_40__["WorkComponent"]
             ],
             imports: [
                 ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_38__["PdfViewerModule"],
@@ -1515,7 +1521,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"container-fluid \" [ngClass]=\"currentRoute\">\r\n\r\n\r\n  <nav class=\"navbar navbar-dark bg-dark navbar-default navbar-expand-md\">\r\n    <a class=\"navbar-brand\" [routerLink]=\"['/']\">\r\n      <img src=\"assets/images/jobtechlogo.png\">\r\n    </a>\r\n\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarMenu\" aria-expanded=\"false\"\r\n            aria-label=\"Toggle navigation\"\r\n            (click)=\"isCollapsed = !isCollapsed\" [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"navbarMenu\">\r\n      <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarMenu\" [ngbCollapse]=\"isCollapsed\">\r\n\r\n      <ul class=\"navbar-nav mr-auto\">\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/apidatasets']\">API:S & DATASETS</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/platform']\">PLATFORM</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/showcase']\">SHOWCASE</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/whitepapers']\">WHITE PAPERS</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/news']\">NEWS</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/about']\">ABOUT</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/contact']\">CONTACT</a>\r\n        </li>\r\n      </ul>\r\n\r\n      <div *ngIf=\"useKeycloak && keycloakService.authenticated() == false\">\r\n\r\n        <ul class=\"navbar-nav navbar-right\">\r\n\r\n          <li class=\"nav-item\">\r\n            <div class=\"nav-link nowrap\">\r\n              <a (click)=\"doLogin()\">Login</a>\r\n              <span>or</span>\r\n              <a (click)=\"doRegister()\">Register</a>\r\n            </div>\r\n\r\n          </li>\r\n        </ul>\r\n      </div>\r\n\r\n      <div *ngIf=\"useKeycloak && keycloakService.authenticated()\">\r\n        <ul class=\"nav navbar-nav navbar-right\">\r\n          <li class=\"nav-item\">\r\n            <div ngbDropdown class=\"\" placement=\"bottom-right\">\r\n              <a class=\"nav-link\" id=\"dropdownAccount\" ngbDropdownToggle>{{ keycloakService.client().tokenParsed['name']}}</a>\r\n              <div class=\"bg-dark\" ngbDropdownMenu aria-labelledby=\"dropdownAccount\">\r\n                <a class=\"dropdown-item nav-link\" [routerLink]=\"['/profile']\">My profile</a>\r\n                <a class=\"dropdown-item nav-link\" [routerLink]=\"['/organisation']\">Organisation</a>\r\n                <a class=\"dropdown-item nav-link\" [routerLink]=\"['/service']\">Services</a>\r\n                <a class=\"dropdown-item nav-link\" (click)=\"doLogout()\">Sign out</a>\r\n              </div>\r\n            </div>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n    </div>\r\n  </nav>\r\n  <h1 class=\"navbar-dark page-title\">{{ title }}</h1>\r\n  <div *ngIf=\"this.currentRoute == 'home'\">\r\n    <h1 class=\"navbar-dark page-title\" style=\"text-align: center;\"> JobTechdev</h1>\r\n    <h4 class=\"navbar-dark page-text\" style=\"text-align: center;\"> Powerful APIs, widgets and datasets for you to develop the missing app</h4>\r\n  </div>\r\n\r\n</header>\r\n"
+module.exports = "<header class=\"container-fluid \" [ngClass]=\"currentRoute\">\r\n\r\n\r\n  <nav class=\"navbar navbar-dark bg-dark navbar-default navbar-expand-md\">\r\n    <a class=\"navbar-brand\" [routerLink]=\"['/']\">\r\n      <img src=\"assets/images/jobtechlogo.png\">\r\n    </a>\r\n\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarMenu\" aria-expanded=\"false\"\r\n            aria-label=\"Toggle navigation\"\r\n            (click)=\"isCollapsed = !isCollapsed\" [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"navbarMenu\">\r\n      <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarMenu\" [ngbCollapse]=\"isCollapsed\">\r\n\r\n      <ul class=\"navbar-nav mr-auto\">\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/apidatasets']\">API:S & DATASETS</a>\r\n        </li>\r\n\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/showcase']\">SHOWCASE</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/whitepapers']\">WHITE PAPERS</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/news']\">NEWS</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/about']\">ABOUT</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/work']\">Work with us</a>\r\n        </li>\r\n        <li class=\"nav-item\" routerLinkActive=\"active\">\r\n          <a class=\"nav-link\" [routerLink]=\"['/contact']\">CONTACT</a>\r\n        </li>\r\n      </ul>\r\n\r\n      <div *ngIf=\"useKeycloak && keycloakService.authenticated() == false\">\r\n\r\n        <ul class=\"navbar-nav navbar-right\">\r\n\r\n          <li class=\"nav-item\">\r\n            <div class=\"nav-link nowrap\">\r\n              <a (click)=\"doLogin()\">Login</a>\r\n              <span>or</span>\r\n              <a (click)=\"doRegister()\">Register</a>\r\n            </div>\r\n\r\n          </li>\r\n        </ul>\r\n      </div>\r\n\r\n      <div *ngIf=\"useKeycloak && keycloakService.authenticated()\">\r\n        <ul class=\"nav navbar-nav navbar-right\">\r\n          <li class=\"nav-item\">\r\n            <div ngbDropdown class=\"\" placement=\"bottom-right\">\r\n              <a class=\"nav-link\" id=\"dropdownAccount\" ngbDropdownToggle>{{ keycloakService.client().tokenParsed['name']}}</a>\r\n              <div class=\"bg-dark\" ngbDropdownMenu aria-labelledby=\"dropdownAccount\">\r\n                <a class=\"dropdown-item nav-link\" [routerLink]=\"['/profile']\">My profile</a>\r\n                <a class=\"dropdown-item nav-link\" [routerLink]=\"['/organisation']\">Organisation</a>\r\n                <a class=\"dropdown-item nav-link\" [routerLink]=\"['/service']\">Services</a>\r\n                <a class=\"dropdown-item nav-link\" (click)=\"doLogout()\">Sign out</a>\r\n              </div>\r\n            </div>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n    </div>\r\n  </nav>\r\n  <h1 class=\"navbar-dark page-title\">{{ title }}</h1>\r\n  <div *ngIf=\"this.currentRoute == 'home'\">\r\n    <h1 class=\"navbar-dark page-title\" style=\"text-align: center;\"> JobTechdev</h1>\r\n    <h4 class=\"navbar-dark page-text\" style=\"text-align: center;\"> Powerful APIs, widgets and datasets for you to develop the missing app</h4>\r\n  </div>\r\n\r\n</header>\r\n"
 
 /***/ }),
 
@@ -4573,6 +4579,69 @@ var WhitepapersComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/work/work.component.html":
+/*!******************************************!*\
+  !*** ./src/app/work/work.component.html ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container \">\n  <div class=\"news-content\">\n    <div class=\"row\">\n      <div class=\"col-md-7\">\n        <div class=\"news-feed\">\n          <h2>Ways of working - JobTech edition!</h2>\n            <p>\n            The Jobtech family always seeking for interested collaborators, now and then we're also\n            looking for people to hire!\n            <br>\n            This will be the place to look if you are interested in getting a job or collaborate within Jobtech!\n            <br>\n        </div>\n\n        <h5><b>Developer within Jobtech</b></h5>\n        <h6><i>published 181213</i> </h6>\n        <h6>A NEW ERA</h6>\n        <p>\n\n          Within Jobtech we constantly challenge old way of working and old techniques!\n          <br>We are focusing on using all the opportunities new technology can offer, to create new, innovative, valuable solutions and assets for the labour market.\n          <br>\n\n        <h6>TALENT SCOUTING</h6>\n          <P>In order for this to happen we need to find the right people to join us - and now we’re coming to find new teammates in Norrbotten!\n            <img class=\"img-responsive oval\" src=\"assets/images/team.jpg\">\n            We want to find people who are passionate to work together with others and make a difference, and we know, competent and passionated people also exists outside Stockholm!\n          <br>\n        <h6>WE CARE</h6>\n          We believe that work/life balance is key to a good team performance. Providing possibilities for remote working, flex time and a flat organization is something we feel very strongly about. “Skills speaks louder than titles” is a guiding star we’re extra happy to live by.\n          But, we plan to make the new office in Piteå into something special, and a place you want to go to.\n          <br>\n          <br>\n        <h6>OPEN BY DEFAULT</h6>\n        <p>\n          Empowering the citizens of Sweden by working in a transparent way is a big thing for us.\n          We want to engage and invite to collaboration and co-creation in several ways - and a prerequisite for that is to provide open projects, open data and open source to the best of our abilities.\n        </p>\n        <h6>1 + 1 = 3</h6>\n          A knowledge sharing mentality, curiosity, a hunger for learning and willingness to try, test and fail are all traits we value.\n          Combined with working with small, quick releases based in the iterative design thinking process we think we have a recipe for magic!\n          <br>\n          <br>\n        <h6>LIKE WHAT YOU SEE?</h6>\n          Don’t hesitate, become a part of our team!\n          <br>\n          Check the ads. We are looking for both <a href=\"https://www.itjobb.se/annons/frontendutvecklare-norrbotten\">Frontend</a> och <a href=\"https://www.itjobb.se/annons/backendutvecklare-norrbotten\">Backend developers</a>\n          <br>\n          <br>\n      </div>\n      <div class=\"col-md-5\">\n        <div class=\"grid\">\n          <img class=\"img-responsive place\" src=\"assets/images/engine.png\">\n        </div>\n      </div>\n\n\n\n\n"
+
+/***/ }),
+
+/***/ "./src/app/work/work.component.scss":
+/*!******************************************!*\
+  !*** ./src/app/work/work.component.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "@import url(\"https://fonts.googleapis.com/css?family=Open+Sans\");\n@font-face {\n  font-style: normal;\n  font-weight: 300;\n  font-family: 'Open Sans', sans-serif; }\nbody {\n  font-family: Open Sans, Helvetica Neue, Helvetica, sans-serif;\n  background-color: #F2F4F5; }\n.carousel-control-next {\n  border-radius: 0px 3px 3px 0px;\n  width: 5%;\n  right: -5%;\n  opacity: 1;\n  z-index: 4;\n  cursor: pointer;\n  opacity: 0.3; }\n.carousel-control-next:hover {\n  transition: opacity 0.5s;\n  background: linear-gradient(to right, #343a40, #F2F4F5, #F2F4F5);\n  opacity: 0.5; }\n.carousel-control-prev {\n  border-radius: 3px 0px 0px 3px;\n  width: 5%;\n  left: -5%;\n  opacity: 0.3;\n  cursor: pointer; }\n.carousel-control-prev:hover {\n  transition: opacity 0.5s;\n  background: linear-gradient(to left, #343a40, #F2F4F5, #F2F4F5);\n  opacity: 0.5; }\n.carousel-control-next-icon {\n  border-radius: 5px;\n  -webkit-transform: rotate(45deg);\n          transform: rotate(45deg);\n  border-right: solid;\n  border-top: solid;\n  background-image: none;\n  border-color: #AE77D7;\n  border-width: 5px; }\n.carousel-control-prev-icon {\n  border-radius: 5px;\n  -webkit-transform: rotate(225deg);\n          transform: rotate(225deg);\n  border-right: solid;\n  border-top: solid;\n  background-image: none;\n  border-color: #AE77D7;\n  border-width: 5px; }\n.carousel:focus {\n  outline: none; }\n.carousel-indicators li {\n  background-color: #AE77D7;\n  opacity: 0.3;\n  height: 5px; }\n.carousel-indicators .active {\n  background-color: #AE77D7;\n  opacity: 1;\n  height: 5px; }\n.carousel-indicators {\n  bottom: -30px; }\nh1, h2, h3, h4, h5, h6,\n.h1, .h2, .h3, .h4, .h5, .h6 {\n  margin-bottom: 0.5rem;\n  font-family: inherit;\n  font-weight: 500;\n  line-height: 1.2;\n  color: inherit; }\nh1, .h1 {\n  font-size: 2.5rem; }\nh2, .h2 {\n  font-size: 2rem; }\nh3, .h3 {\n  font-size: 1.75rem; }\nh4, .h4 {\n  font-size: 1.5rem; }\nh5, .h5 {\n  font-size: 1.25rem; }\nh6, .h6 {\n  font-size: 1rem; }\n.lead {\n  font-size: 1.25rem;\n  font-weight: 300; }\n.display-1 {\n  font-size: 6rem;\n  font-weight: 300;\n  line-height: 1.2; }\n.display-2 {\n  font-size: 5.5rem;\n  font-weight: 300;\n  line-height: 1.2; }\n.display-3 {\n  font-size: 4.5rem;\n  font-weight: 300;\n  line-height: 1.2; }\n.display-4 {\n  font-size: 3.5rem;\n  font-weight: 300;\n  line-height: 1.2; }\nhr {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n  border: 0;\n  border-top: 1px solid rgba(0, 0, 0, 0.1); }\nsmall,\n.small {\n  font-size: 80%;\n  font-weight: 400; }\nmark,\n.mark {\n  padding: 0.2em;\n  background-color: #fcf8e3; }\n.list-unstyled {\n  padding-left: 0;\n  list-style: none; }\n.list-inline {\n  padding-left: 0;\n  list-style: none; }\n.list-inline-item {\n  display: inline-block; }\n.list-inline-item:not(:last-child) {\n    margin-right: 0.5rem; }\n.initialism {\n  font-size: 90%;\n  text-transform: uppercase; }\n.blockquote {\n  margin-bottom: 1rem;\n  font-size: 1.25rem; }\n.blockquote-footer {\n  display: block;\n  font-size: 80%;\n  color: #6c757d; }\n.blockquote-footer::before {\n    content: \"\\2014 \\00A0\"; }\nhtml, body {\n  height: 100%;\n  margin: 0; }\n.cc-message {\n  text-align: center; }\n.cc-window {\n  max-width: 100%;\n  max-height: auto; }\n@media (min-width: 576px) {\n  .news-content {\n    padding: 20px 40px; } }\n.news-content {\n  width: 100%;\n  background-color: #fff;\n  padding: 0 1em; }\nh2 {\n  border-bottom: 1px solid rgba(15, 70, 100, 0.12);\n  margin-top: 1em; }\n.img-responsive {\n  display: block;\n  max-width: 50%;\n  height: auto; }\n.oval {\n  width: 400px;\n  height: 250px;\n  color: #111;\n  border-radius: 50%;\n  text-align: center;\n  font-size: 90px;\n  float: left;\n  shape-outside: ellipse();\n  padding: 10px;\n  background-color: MediumPurple;\n  background-clip: content-box; }\nspan {\n  padding-top: 70px;\n  display: inline-block; }\n.grid {\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-rows: 100px 300px;\n      grid-template-rows: 100px 300px; }\n.place {\n  margin-top: 45px; }\n"
+
+/***/ }),
+
+/***/ "./src/app/work/work.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/work/work.component.ts ***!
+  \****************************************/
+/*! exports provided: WorkComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkComponent", function() { return WorkComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var WorkComponent = /** @class */ (function () {
+    function WorkComponent() {
+    }
+    WorkComponent.prototype.ngOnInit = function () {
+    };
+    WorkComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-work',
+            template: __webpack_require__(/*! ./work.component.html */ "./src/app/work/work.component.html"),
+            styles: [__webpack_require__(/*! ./work.component.scss */ "./src/app/work/work.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], WorkComponent);
+    return WorkComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/environments/environment.ts":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -4649,7 +4718,7 @@ else {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\yrkesinfo\jobtech-dev\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\UTV\Jobtechdev\work\jobtech-dev\src\main.ts */"./src/main.ts");
 
 
 /***/ }),
