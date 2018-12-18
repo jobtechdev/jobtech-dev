@@ -1,36 +1,35 @@
+<div class="home">
 
-<div class="row">
-<div class="col-2 col-sm-2 col-md-2 col-lg-2"></div>
-<div class="col-8 col-sm-8 col-md-8 col-lg-8" style="height: 790px">
+  <div class="row">
+    <div class="column1">
+      <h2 class="what" align="center">What do we do?</h2>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit "Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.</p>
+    </div>
+  </div>
+  <div class="column" style="background-color:#f6f6f9;">
+    <a href="apidatasets"><img src="../../assets/images/API_icon.png" class="icon"></a>
 
-  <br>
-  <ngb-carousel>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit "Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.</p>
+  </div>
+  <div class="column" style="background-color:#f6f6f9;">
+    <a href="showcase"><img src="../../assets/images/Showcase_icon.png" class="icon"></a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit "Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.</p>
+  </div>
+  <div class="column1">
+    <h2 align="center">Partners</h2>
+    <img src="../../assets/images/Vinnova_green_RGB.png" class="icon">
 
-    <ng-template *ngFor="let image of images; let i = index" ngbSlide>
-
-      <div class="carousel-caption container-fluid">
-        <h5>{{image.header}}</h5>
-        <!--<p>{{image.description}}</p>-->
-      </div>
-      <div class="container">
-        <a href="{{image.link}}" target="_blank">
-          <div class="banner container">
-
-            Fork me on Github
-
-
-          </div>
-        </a>
-        <a href="{{image.demolink}}" target="_blank">
-        <img class="img-fluid" [src]="image.image" alt="Random first slide ">
-
-        </a>
-      </div>
-
-
-    </ng-template>
-  </ngb-carousel>
-
- </div>
+  </div>
 </div>
+
+
 

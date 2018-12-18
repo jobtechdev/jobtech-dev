@@ -2,7 +2,7 @@
 @import '~scss/styles';
 
 header {
-  background-image: url('../../../assets/images/startpage-header-bg.jpg');
+  background-image: url('../../../assets/images/background_landing.png');
   background-position: 0% 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,10 +20,12 @@ header {
     }
   }
 
+
   .navbar-default {
     background-color: transparent !important;
-    border-color: transparent !important;
+    border-bottom: white 1px solid !important;
   }
+
 
   .navbar-toggler {
     border: none !important;
@@ -44,7 +46,7 @@ header {
       a {
         background-color: transparent !important;
         text-transform: uppercase;
-        color: #b1b3b4;
+        color: #ffffff;
         font-weight: bold;
         transition: all 0.2s;
         &:hover {
@@ -87,24 +89,19 @@ header {
   }
 
   .home {
-    background-image: url('/assets/images/startpage-header-bg.jpg')
+    background-image: url('../../../assets/images/background_landing.png');
+    height: 450px;
+
+
+
+ }
+  .text {
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+    margin-top: 100px;
   }
 
-  .assets {
-    background-image: url('/assets/images/product-header.jpg')
-  }
-
-  .platform {
-    background-image: url('/assets/images/vision-header.jpg')
-  }
-
-  .showcase {
-    background-image: url('/assets/images/insights-header.jpg')
-  }
-
-  .news {
-    background-image: url('/assets/images/news-header.jpg')
-  }
 
   .nowrap {
     white-space: nowrap;
@@ -116,19 +113,14 @@ header {
 
   .nav-page-title {
     display: inline-block;
-  }
+      }
 
-  .page-title {
-    color: #fff;
-    font-size: 3rem;
-    font-weight: 300;
-    display: none;
 
-  }
   .page-text {
     color: #fff;
     font-size: 1rem;
     font-weight: normal;
+
 
   }
 

@@ -1,98 +1,57 @@
 @import '~scss/_variables';
 
-.jumbotron {
-  margin-top: -85px;
-  margin-bottom: 0px;
-  height: 200px;
-  border-radius: 0;
-  background-image: url("../../assets/images/startpage-header-bg.jpg");
 
-}
-
-.container-fluid {
-  max-width: 1200px;
-  }
-
-.our-vision {
-  background-color: #e8e1e6;
-
-}
-
-.principles {
-  background-color: #DCE6E0;
-}
-
-.section-header {
-  color: $almost-black;
-  padding-top: 30px;
-}
-.subtitle {
-  font-size: larger;
-
-  //font-weight: bold;
-}
-.image-cell {
-  margin: 0px;
-  padding:0px ;
-}
-.img-fluid {
+.column1 {
+  float: left;
   width: 100%;
-  margin: 0px;
-  padding: 0px 3px 3px 3px;
-  border-radius:5px;
-
+  padding: 50px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color:white;
 }
 
-.carousel-caption {
-
-   /* RGBa with 0.6 opacity */
-
-  background-color: #343a40;
-  color: #f8f9fa ;
-  width: 100%;
-  right: 0%;
-  left: 0%;
-  bottom: 0px;
-  position: relative;
-  max-width: 1300px;
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
 
 }
-.carousel {
-  margin: auto;
-  border:solid;
-  border-left-width: thick ;
-  max-width: 1000px;
-  //background-color: #343a40;
-}
-.banner {
-  color: #f8f9fa ;
-  font-weight: 900;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg); /* WebKit */
-  -moz-transform: rotate(45deg); /* Mozilla */
-  -o-transform: rotate(45deg); /* Opera */
-  -ms-transform: rotate(45deg); /* Internet Explorer */
-  transform: rotate(45deg); /* CSS3 */
-  background-color: #AE77D7;
-  font-size: small;
-  right: -40%;
-  top: 40px;
-  position: relative;
-  z-index: 5;
-  width: 100%;
+.what{
+  color: #484e87;
+  font-weight: bolder;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  align-content: center;
 }
-.banner:hover {
-  cursor: pointer;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-a {
-  color: #fff;
-  z-index: 20000;
-  text-decoration: none;
+img.icon {
+  max-height: 100px;
+  max-width: 100px;
+  margin-right: 40%;
+  margin-top: 95px;
+  margin-left: 40%;
+  margin-bottom: 100px;
+
 }
+
+
+
+.text {
+  text-align: center;
+
+
+
+}
+
+
+
+
+
+
 
 
 
