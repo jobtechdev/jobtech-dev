@@ -15,7 +15,9 @@
 img.social-media {
   max-height: 30px;
   max-width: 30px;
-  margin-right: 10px;
+  margin-right: 50%;
+
+
 }
 
 // #copyright {
@@ -29,13 +31,44 @@ img.social-media {
 
 footer {
   margin: 0;
+  z-index: -1;
+  position: relative;}
+
+img.logo {
+  
 }
 
 .column{
-  column-count:2;
+  column-count:3;
   column-gap:50px;
 
 }
 .contact{
   text-align: right;
+}
+
+.img.aflogo {
+  max-height: 100px;
+  max-width: 100px;
+  margin-right: 40%;
+  margin-top: 95px;
+  margin-left: 40%;
+  margin-bottom: 100px;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text {
+  text-align: center;
 }

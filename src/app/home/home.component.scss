@@ -1,9 +1,25 @@
 @import '~scss/_variables';
 
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 0 40px 0;
+  background-color: white;
+}
+.outer-div
+{
+  padding: 30px;
+  background-color: #ffffff;
+}
+.inner-div
+{
+  margin: 0 auto;
+  max-width: 700px;
+}
 
 .column1 {
-  float: left;
-  width: 100%;
+  width: 75%;
   padding: 50px;
   height: 300px; /* Should be removed. Only for demonstration */
   background-color:white;
@@ -17,10 +33,11 @@
   height: 500px; /* Should be removed. Only for demonstration */
 
 }
-.what{
+.divheader{
   color: #484e87;
   font-weight: bolder;
   text-align: center;
+  margin-top: 20px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -42,10 +59,8 @@ img.icon {
 
 .text {
   text-align: center;
-
-
-
 }
+
 
 
 
